@@ -1,0 +1,103 @@
+{
+  "checked_at_utc": "2026-11-20T23:10:39.669128+00:00",
+  "site_source_commit": "b7f8b7e354d9520f6068ee36307ec2d7261022bd",
+  "base_url": "http://murrif.ru/",
+  "files": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 80713,
+      "sha256": "7422ae71bd8479a1f97b660e99f302669b8a08f10070d1d34a369ea9082fd844",
+      "matches_source": true
+    },
+    {
+      "path": "privacy.html",
+      "status": 200,
+      "bytes": 17291,
+      "sha256": "509284afefff99968679070398d57a0db613c80fa36b23727e001b972e0bf3fd",
+      "matches_source": true
+    },
+    {
+      "path": "consent.html",
+      "status": 200,
+      "bytes": 15275,
+      "sha256": "75e84fe8051dc29b3e780d00a85e1bbf34361faa0145f17d835e5ff09001947c",
+      "matches_source": true
+    },
+    {
+      "path": "og-image.jpg",
+      "status": 200,
+      "bytes": 75932,
+      "sha256": "7accc66889a3880b67fa807eb0488f550c15d97592bebc94c093abf414c89cb7",
+      "matches_source": true
+    },
+    {
+      "path": "photo-fade.webp",
+      "status": 200,
+      "bytes": 43818,
+      "sha256": "334aba0f9a43bdba0fdef6fff31bc6b8a887a19e37067a83e6e390a2ea909c52",
+      "matches_source": true
+    },
+    {
+      "path": "photo-square.webp",
+      "status": 200,
+      "bytes": 23278,
+      "sha256": "a9e5c18ed5ff4b1adc6022d78b6cb3df0c810afbe2cae7ea2de9e5d20f4bf5a3",
+      "matches_source": true
+    },
+    {
+      "path": "fonts/OFL-JetBrainsMono.txt",
+      "status": 200,
+      "bytes": 4399,
+      "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d",
+      "matches_source": true
+    },
+    {
+      "path": "fonts/OFL-Onest.txt",
+      "status": 200,
+      "bytes": 4384,
+      "sha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc",
+      "matches_source": true
+    },
+    {
+      "path": "fonts/jetbrains-mono-cyrillic.woff2",
+      "status": 200,
+      "bytes": 8872,
+      "sha256": "e17cfd15fb96909d64095015f958207063a0c07191da3512df7d560a781aebdf",
+      "matches_source": true
+    },
+    {
+      "path": "fonts/jetbrains-mono-latin.woff2",
+      "status": 200,
+      "bytes": 31432,
+      "sha256": "83c005d49d8a6a50474c73a5a36ac0468076e9c4a29da7bdb14995d80560a5be",
+      "matches_source": true
+    },
+    {
+      "path": "fonts/onest-cyrillic.woff2",
+      "status": 200,
+      "bytes": 15860,
+      "sha256": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "matches_source": true
+    },
+    {
+      "path": "fonts/onest-latin.woff2",
+      "status": 200,
+      "bytes": 33760,
+      "sha256": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "matches_source": true
+    }
+  ],
+  "https": [
+    {
+      "url": "https://murrif.ru/",
+      "status": 200,
+      "bytes": 80713
+    },
+    {
+      "url": "https://www.murrif.ru/",
+      "status": 200,
+      "bytes": 80713
+    }
+  ]
+}

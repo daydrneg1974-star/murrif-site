@@ -1,0 +1,7 @@
+# HTTPS redirect for SpaceWeb's TLS proxy.
+# https://help.sweb.ru/nastrojka-sajta-dlya-raboty-po-https_198.html
+RewriteEngine On
+SetEnvIf X-Forwarded-Proto https SERVER_PORT=443
+SetEnvIf X-Forwarded-Proto https HTTPS=on
+RewriteCond %{HTTP:HTTPS} !=on [NC]
+RewriteRule ^ https://murrif.ru%{REQUEST_URI} [R=301,L]
