@@ -1081,11 +1081,13 @@
             <span>Даю <a href="consent.html" target="_blank" rel="noopener">согласие на обработку персональных данных</a></span>
           </label>
 
-          <button class="btn btn--light form__submit" type="submit">
+          <button class="btn btn--light form__submit" type="submit" disabled>
             Отправить заявку
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </button>
 
+          <p class="form__note">Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла.</p>
+          <noscript><p class="form__note">Для заявки напишите в Telegram, WhatsApp или по email — контакты выше.</p></noscript>
           <p class="form__note">Подробнее — в <a href="privacy.html" target="_blank" rel="noopener">Политике обработки персональных данных</a></p>
 
           <div class="form__status" id="formStatus" role="status" aria-live="polite"></div>
@@ -1192,8 +1194,8 @@
           '&body=' + encodeURIComponent(body);
 
         showStatus('Спасибо! Сейчас откроется почтовый клиент с готовым письмом. Если не открылся — напишите в Telegram или WhatsApp.', true);
-        form.reset();
       });
+      form.querySelector('button[type="submit"]').disabled = false;
 
       // --- Квиз: подбор формата ---
       var quiz = document.getElementById('quizCard');
