@@ -1,0 +1,158 @@
+{
+  "checked_at_utc": "2026-11-21T07:33:02.023017+00:00",
+  "note": "YandexBot is a request User-Agent here, not a request originating from Yandex infrastructure. TLS certificate verification is enabled.",
+  "results": [
+    {
+      "url": "https://murrif.ru/",
+      "user_agent": "default",
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": null,
+      "location": null,
+      "bytes": 80713,
+      "sha256": "7422ae71bd8479a1f97b660e99f302669b8a08f10070d1d34a369ea9082fd844",
+      "source_sha256": "7422ae71bd8479a1f97b660e99f302669b8a08f10070d1d34a369ea9082fd844",
+      "source_bytes_match": true
+    },
+    {
+      "url": "https://murrif.ru/privacy.html",
+      "user_agent": "default",
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": null,
+      "location": null,
+      "bytes": 17291,
+      "sha256": "509284afefff99968679070398d57a0db613c80fa36b23727e001b972e0bf3fd",
+      "source_sha256": "509284afefff99968679070398d57a0db613c80fa36b23727e001b972e0bf3fd",
+      "source_bytes_match": true
+    },
+    {
+      "url": "https://murrif.ru/consent.html",
+      "user_agent": "default",
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": null,
+      "location": null,
+      "bytes": 15275,
+      "sha256": "75e84fe8051dc29b3e780d00a85e1bbf34361faa0145f17d835e5ff09001947c",
+      "source_sha256": "75e84fe8051dc29b3e780d00a85e1bbf34361faa0145f17d835e5ff09001947c",
+      "source_bytes_match": true
+    },
+    {
+      "url": "https://murrif.ru/robots.txt",
+      "user_agent": "default",
+      "status": 200,
+      "content_type": "text/plain",
+      "x_robots_tag": null,
+      "location": null,
+      "bytes": 62,
+      "sha256": "5c42ac417caa65c8250ae1abc561434498e3b4c1d705847147e8fac6645e2643",
+      "source_sha256": "5c42ac417caa65c8250ae1abc561434498e3b4c1d705847147e8fac6645e2643",
+      "source_bytes_match": true,
+      "final_newline_normalized_to_published_file": true,
+      "body": "User-agent: *\nAllow: /\n\nSitemap: https://murrif.ru/sitemap.xml"
+    },
+    {
+      "url": "https://murrif.ru/sitemap.xml",
+      "user_agent": "default",
+      "status": 200,
+      "content_type": "text/xml",
+      "x_robots_tag": null,
+      "location": null,
+      "bytes": 286,
+      "sha256": "5576181aa843dec06a242e1254ed0249dbe0514d9ec403f4d92dbc7a716fa469",
+      "source_sha256": "5576181aa843dec06a242e1254ed0249dbe0514d9ec403f4d92dbc7a716fa469",
+      "source_bytes_match": true,
+      "final_newline_normalized_to_published_file": true,
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url>\n    <loc>https://murrif.ru/</loc>\n  </url>\n  <url>\n    <loc>https://murrif.ru/privacy.html</loc>\n  </url>\n  <url>\n    <loc>https://murrif.ru/consent.html</loc>\n  </url>\n</urlset>"
+    },
+    {
+      "url": "https://murrif.ru/",
+      "user_agent": "YandexBot",
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": null,
+      "location": null,
+      "bytes": 80713,
+      "sha256": "7422ae71bd8479a1f97b660e99f302669b8a08f10070d1d34a369ea9082fd844",
+      "source_sha256": "7422ae71bd8479a1f97b660e99f302669b8a08f10070d1d34a369ea9082fd844",
+      "source_bytes_match": true
+    },
+    {
+      "url": "https://murrif.ru/robots.txt",
+      "user_agent": "YandexBot",
+      "status": 200,
+      "content_type": "text/plain",
+      "x_robots_tag": null,
+      "location": null,
+      "bytes": 62,
+      "sha256": "5c42ac417caa65c8250ae1abc561434498e3b4c1d705847147e8fac6645e2643",
+      "source_sha256": "5c42ac417caa65c8250ae1abc561434498e3b4c1d705847147e8fac6645e2643",
+      "source_bytes_match": true
+    },
+    {
+      "url": "https://murrif.ru/sitemap.xml",
+      "user_agent": "YandexBot",
+      "status": 200,
+      "content_type": "text/xml",
+      "x_robots_tag": null,
+      "location": null,
+      "bytes": 286,
+      "sha256": "5576181aa843dec06a242e1254ed0249dbe0514d9ec403f4d92dbc7a716fa469",
+      "source_sha256": "5576181aa843dec06a242e1254ed0249dbe0514d9ec403f4d92dbc7a716fa469",
+      "source_bytes_match": true
+    },
+    {
+      "url": "http://murrif.ru/",
+      "user_agent": "default",
+      "status": 301,
+      "content_type": "text/html; charset=iso-8859-1",
+      "x_robots_tag": null,
+      "location": "https://murrif.ru/",
+      "bytes": 367,
+      "sha256": "191d20c15726c90a9f99449fcc90286279f5baf85f942646759a6e7f9b06c2b6"
+    },
+    {
+      "url": "http://www.murrif.ru/",
+      "user_agent": "default",
+      "status": 301,
+      "content_type": "text/html; charset=iso-8859-1",
+      "x_robots_tag": null,
+      "location": "https://murrif.ru/",
+      "bytes": 371,
+      "sha256": "1c43ec9a963b0bd57bf35f401ec5f9bb4021369056d9fb5fb1f1881278490280"
+    },
+    {
+      "url": "http://murrif.ru/robots.txt",
+      "user_agent": "default",
+      "status": 301,
+      "content_type": "text/html; charset=iso-8859-1",
+      "x_robots_tag": null,
+      "location": "https://murrif.ru/robots.txt",
+      "bytes": 377,
+      "sha256": "f04a9fd2935c442c1eee2c5461db435bd159cadd7215d5a564962e5a91c9dee2"
+    },
+    {
+      "url": "http://murrif.ru/sitemap.xml",
+      "user_agent": "default",
+      "status": 301,
+      "content_type": "text/html; charset=iso-8859-1",
+      "x_robots_tag": null,
+      "location": "https://murrif.ru/sitemap.xml",
+      "bytes": 378,
+      "sha256": "b3ce103e40413dbc943c91d6f7f27f7cb455df17140c2cd89d3e8878855b64bb"
+    },
+    {
+      "url": "https://www.murrif.ru/",
+      "user_agent": "default",
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": null,
+      "location": null,
+      "bytes": 80713,
+      "sha256": "7422ae71bd8479a1f97b660e99f302669b8a08f10070d1d34a369ea9082fd844",
+      "source_sha256": "7422ae71bd8479a1f97b660e99f302669b8a08f10070d1d34a369ea9082fd844",
+      "source_bytes_match": true
+    }
+  ]
+}
