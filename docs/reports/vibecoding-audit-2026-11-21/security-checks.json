@@ -1,0 +1,18 @@
+{
+  "method": "Custom pattern scanner; not Gitleaks/TruffleHog",
+  "refs": "all locally fetched refs",
+  "commits": 13,
+  "text_blobs": 51,
+  "patterns": [
+    "private_key",
+    "github_token",
+    "aws_key",
+    "google_api_key",
+    "openai_or_stripe_key",
+    "slack_token",
+    "credential_assignment",
+    "url_credentials"
+  ],
+  "candidates": [],
+  "limits": "Pattern-based inspection cannot prove absence of every secret; remote unreachable/deleted history and GitHub account security settings excluded."
+}

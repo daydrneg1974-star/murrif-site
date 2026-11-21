@@ -1,0 +1,61 @@
+{
+  "standard": "WCAG 2.2 SC 1.4.3 normal text minimum 4.5:1",
+  "source": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+  "method": "WCAG sRGB relative luminance from source CSS; form gradient endpoints bound the ratios for these opaque monotonic stops. Computed styles confirmed in live Chrome.",
+  "pairs": [
+    {
+      "text": "#f4f4f5",
+      "background": "#383840",
+      "ratio": 10.568009,
+      "normal_text_aa": true
+    },
+    {
+      "text": "#f4f4f5",
+      "background": "#44444e",
+      "ratio": 8.753311,
+      "normal_text_aa": true
+    },
+    {
+      "text": "#f4f4f5",
+      "background": "#3c3c45",
+      "ratio": 9.927933,
+      "normal_text_aa": true
+    },
+    {
+      "text": "#a1a1aa",
+      "background": "#383840",
+      "ratio": 4.532347,
+      "normal_text_aa": true
+    },
+    {
+      "text": "#a1a1aa",
+      "background": "#44444e",
+      "ratio": 3.754069,
+      "normal_text_aa": false
+    },
+    {
+      "text": "#a1a1aa",
+      "background": "#3c3c45",
+      "ratio": 4.257835,
+      "normal_text_aa": false
+    },
+    {
+      "text": "#8b8b95",
+      "background": "#383840",
+      "ratio": 3.443215,
+      "normal_text_aa": false
+    },
+    {
+      "text": "#8b8b95",
+      "background": "#44444e",
+      "ratio": 2.851959,
+      "normal_text_aa": false
+    },
+    {
+      "text": "#8b8b95",
+      "background": "#3c3c45",
+      "ratio": 3.234668,
+      "normal_text_aa": false
+    }
+  ]
+}

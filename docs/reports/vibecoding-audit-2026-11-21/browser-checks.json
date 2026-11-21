@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-21",
+  "commit": "373be345f52ce109834a7ee6b29267830befab75",
+  "browser": "Connected Chrome",
+  "site": "https://murrif.ru/",
+  "provenance": "Condensed observations from browser tools; not an automated test-runner export.",
+  "checks": [
+    {
+      "case": "Empty form",
+      "status": "pass",
+      "visible_message": "Пожалуйста, укажите имя и способ связи.",
+      "focus": "name"
+    },
+    {
+      "case": "Name/contact filled, consent unchecked",
+      "status": "pass",
+      "visible_message": "Отметьте согласие на обработку данных, чтобы отправить заявку.",
+      "focus": "consent",
+      "url": "https://murrif.ru/#contacts",
+      "test_values_cleared": true
+    },
+    {
+      "case": "Quiz A/A/A",
+      "status": "pass",
+      "result": "Сайт-визитка",
+      "form_service": "Сайт-визитка"
+    },
+    {
+      "case": "Quiz B/B/B",
+      "status": "pass",
+      "result": "Лендинг",
+      "form_service": "Лендинг"
+    },
+    {
+      "case": "Quiz C/C/C",
+      "status": "pass",
+      "result": "Веб-приложение",
+      "form_service": "Веб-приложение"
+    },
+    {
+      "case": "Quiz restart then back from step 2 to step 1",
+      "status": "pass",
+      "counter_after_back": "Шаг 1 из 3",
+      "counter_after_reselect": "Шаг 2 из 3"
+    },
+    {
+      "case": "Mobile menu contact link",
+      "status": "pass",
+      "aria_expanded_after_click": "false",
+      "hash": "#contacts"
+    },
+    {
+      "case": "Mobile menu Escape from focused Services link",
+      "status": "finding",
+      "focus_before": "A inside #nav",
+      "focus_after": "BODY",
+      "menu_expanded": "false",
+      "menu_visibility": "hidden",
+      "expected_improvement": "Restore focus to #burger"
+    },
+    {
+      "case": "Main narrow width",
+      "status": "pass",
+      "viewport": [
+        335,
+        800
+      ],
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "out_of_bounds_visible_content_elements": [],
+      "measured_selectors": "a,button,input,select,textarea,h1,h2,h3,p,li,label, excluding skip link; this is not a complete clipping/text-overflow audit"
+    },
+    {
+      "case": "Main mobile form",
+      "status": "pass_with_contrast_finding",
+      "viewport": [
+        360,
+        800
+      ],
+      "clientWidth": 345,
+      "scrollWidth": 345,
+      "screenshot": "form-mobile-360.jpg"
+    },
+    {
+      "case": "Privacy page narrow width",
+      "status": "pass",
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "h1": "Политика обработки персональных данных",
+      "body_background": "rgb(56, 56, 64)"
+    },
+    {
+      "case": "Consent page narrow width",
+      "status": "pass",
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "h1": "Согласие на обработку персональных данных",
+      "body_background": "rgb(56, 56, 64)"
+    },
+    {
+      "case": "Desktop contacts",
+      "status": "pass_with_contrast_finding",
+      "innerWidth": 1536,
+      "clientWidth": 1521,
+      "scrollWidth": 1521,
+      "screenshot": "contacts-desktop.jpg"
+    },
+    {
+      "case": "Rendered assets",
+      "status": "pass",
+      "photo-square.webp": "complete and naturalWidth > 0",
+      "photo-fade.webp": "complete and naturalWidth > 0",
+      "document_fonts_status": "loaded"
+    },
+    {
+      "case": "Available browser warnings/errors",
+      "status": "pass",
+      "main_tab_logs": [],
+      "second_main_tab_logs": [],
+      "limits": "Only logs available to the browser tool for those test tabs; not server logs"
+    },
+    {
+      "case": "Computed contrast styles",
+      "status": "finding",
+      "form_background": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+      "field_label_color": "rgb(161, 161, 170)",
+      "form_note_color": "rgb(139, 139, 149)",
+      "form_note_size": "13px",
+      "footer_color": "rgb(139, 139, 149)"
+    }
+  ],
+  "hosting_read_only": {
+    "account_status": "Активен",
+    "private_financial_details": "Excluded from public artifact; reviewed and communicated directly to owner",
+    "certificate": {
+      "domain": "murrif.ru",
+      "type": "Let's Encrypt",
+      "status": "Установлен",
+      "ssl_panel_next_issue_by": "2027-02-19",
+      "domains_panel_label": "SSL Let's Encrypt действует до 19.02.2027",
+      "limits": "Provider UI; independent raw certificate read from executor failed because of executor DNS restrictions"
+    },
+    "logs": {
+      "selected_domain": "murrif.ru",
+      "visitLog_checked": false,
+      "errorLog_checked": false,
+      "awstats_checked": false,
+      "settings_changed": false,
+      "last_24h_errors": "No data; logging disabled"
+    },
+    "domain_registration": {
+      "management": "Другое",
+      "paid_until": "Not displayed / unverified"
+    },
+    "other_projects_changed": false
+  },
+  "limits": [
+    "No real email sent",
+    "No physical phone test",
+    "No full WCAG audit",
+    "No Safari/iOS or screen-reader run",
+    "No JavaScript-disabled browser run",
+    "No 200 percent zoom run",
+    "No legal-content audit",
+    "No restoration rehearsal"
+  ],
+  "cleanup": "Temporary viewport override on final tab reset; filled dummy fields cleared; no hosting settings or site files changed"
+}

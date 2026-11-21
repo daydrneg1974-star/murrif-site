@@ -1,0 +1,45 @@
+{
+  "commit": "373be345f52ce109834a7ee6b29267830befab75",
+  "pages": [
+    {
+      "file": "index.html",
+      "h1_count": 1,
+      "ids": 26,
+      "external_scripts": [],
+      "forms": 1
+    },
+    {
+      "file": "privacy.html",
+      "h1_count": 1,
+      "ids": 1,
+      "external_scripts": [],
+      "forms": 0
+    },
+    {
+      "file": "consent.html",
+      "h1_count": 1,
+      "ids": 1,
+      "external_scripts": [],
+      "forms": 0
+    }
+  ],
+  "local_references_checked": 39,
+  "problems": [],
+  "scripts": [
+    {
+      "file": "index.html",
+      "script": 0,
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "file": "index.html",
+      "script": 1,
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ],
+  "dependency_manifests": [],
+  "total_site_file_bytes": 355359,
+  "limits": "Basic HTML structure/link checks; not a full HTML validator or accessibility audit."
+}

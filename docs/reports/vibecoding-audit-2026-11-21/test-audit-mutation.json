@@ -1,0 +1,33 @@
+{
+  "method": "Audit-only mutation in disposable copy; project files untouched",
+  "mutation": "Remove e.preventDefault() only from form submit handler",
+  "exit_code": 0,
+  "tests": [
+    {
+      "name": "Empty name and contact are rejected",
+      "pass": true
+    },
+    {
+      "name": "Missing consent is rejected",
+      "pass": true
+    },
+    {
+      "name": "Mail draft has the correct recipient and escaped contents",
+      "pass": true
+    },
+    {
+      "name": "Draft stays in the form after preparing an email",
+      "pass": true
+    },
+    {
+      "name": "Without JavaScript the submit button starts disabled and fallback contacts are explained",
+      "pass": true
+    },
+    {
+      "name": "Successful script initialization enables the submit button",
+      "pass": true
+    }
+  ],
+  "stderr": "",
+  "interpretation": "The existing tests do not detect removal of the native-submit prevention. The live source still contains preventDefault; no live defect or data leakage is asserted."
+}
