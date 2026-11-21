@@ -1,0 +1,978 @@
+{
+  "method": "sRGB relative luminance and alpha compositing of current CSS colors; maximum-alpha combinations are conservative bounds, not sampled rendered pixels",
+  "colors": {
+    "soft": "#ceced6",
+    "muted": "#c0c0cc",
+    "placeholders": "#c0c0cc",
+    "placeholderOpacity": 1,
+    "background": "#383840"
+  },
+  "pages": {
+    "index.html": [
+      {
+        "label": "page",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          56,
+          56,
+          64
+        ],
+        "ratio": 7.425323074506537
+      },
+      {
+        "label": "page",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          56,
+          56,
+          64
+        ],
+        "ratio": 6.445808754411033
+      },
+      {
+        "label": "surface",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          64,
+          64,
+          73
+        ],
+        "ratio": 6.556031158328395
+      },
+      {
+        "label": "surface",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          64,
+          64,
+          73
+        ],
+        "ratio": 5.691189812283429
+      },
+      {
+        "label": "header over page",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          61.76,
+          61.76,
+          70.47999999999999
+        ],
+        "ratio": 6.790802633798726
+      },
+      {
+        "label": "header over page",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          61.76,
+          61.76,
+          70.47999999999999
+        ],
+        "ratio": 5.894991319192705
+      },
+      {
+        "label": "glass endpoint 1",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          64.955,
+          64.955,
+          72.595
+        ],
+        "ratio": 6.470347049631236
+      },
+      {
+        "label": "glass endpoint 1",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          64.955,
+          64.955,
+          72.595
+        ],
+        "ratio": 5.616808755403859
+      },
+      {
+        "label": "glass endpoint 2",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          58.388000000000005,
+          58.388000000000005,
+          66.292
+        ],
+        "ratio": 7.160632079084753
+      },
+      {
+        "label": "glass endpoint 2",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          58.388000000000005,
+          58.388000000000005,
+          66.292
+        ],
+        "ratio": 6.216034572414663
+      },
+      {
+        "label": "form endpoint 1",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          68,
+          68,
+          78
+        ],
+        "ratio": 6.150274887032632
+      },
+      {
+        "label": "form endpoint 1",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          68,
+          68,
+          78
+        ],
+        "ratio": 5.338959033981674
+      },
+      {
+        "label": "placeholder endpoint 1",
+        "token": "var(--ink-muted)",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          59.84,
+          59.84,
+          68.64
+        ],
+        "ratio": 6.0719191623025335
+      },
+      {
+        "label": "form endpoint 2",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          60,
+          60,
+          69
+        ],
+        "ratio": 6.975590867712975
+      },
+      {
+        "label": "form endpoint 2",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          60,
+          60,
+          69
+        ],
+        "ratio": 6.055403142883727
+      },
+      {
+        "label": "placeholder endpoint 2",
+        "token": "var(--ink-muted)",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          52.8,
+          52.8,
+          60.72
+        ],
+        "ratio": 6.764506463185451
+      },
+      {
+        "label": "contacts maximum glow",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          66.88,
+          67.36,
+          92.47999999999999
+        ],
+        "ratio": 6.086590278071745
+      },
+      {
+        "label": "contacts maximum glow",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          66.88,
+          67.36,
+          92.47999999999999
+        ],
+        "ratio": 5.2836754044557495
+      },
+      {
+        "label": "contacts glass endpoint 1",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          75.3454,
+          75.8038,
+          99.79339999999998
+        ],
+        "ratio": 5.340583777070998
+      },
+      {
+        "label": "contacts glass endpoint 1",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          75.3454,
+          75.8038,
+          99.79339999999998
+        ],
+        "ratio": 4.636078635029293
+      },
+      {
+        "label": "contacts glass endpoint 2",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          69.13744,
+          69.61168,
+          94.43024
+        ],
+        "ratio": 5.878375069925536
+      },
+      {
+        "label": "contacts glass endpoint 2",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          69.13744,
+          69.61168,
+          94.43024
+        ],
+        "ratio": 5.102926984756914
+      },
+      {
+        "label": "hero badge over maximum dots and glow",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          83.87376400000001,
+          84.33936400000002,
+          108.24947600000002
+        ],
+        "ratio": 4.673899197556001
+      },
+      {
+        "label": "why card maximum glow",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          82.6685,
+          83.5685,
+          123.41649999999998
+        ],
+        "ratio": 4.616721885691218
+      },
+      {
+        "label": "quiz card endpoint 1",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          67.8016,
+          67.8352,
+          78.8736
+        ],
+        "ratio": 6.158408515539874
+      },
+      {
+        "label": "quiz card endpoint 1",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          67.8016,
+          67.8352,
+          78.8736
+        ],
+        "ratio": 5.34601971178802
+      },
+      {
+        "label": "quiz letter .quiz__option endpoint 1",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          81.60748199999999,
+          81.638604,
+          91.862922
+        ],
+        "ratio": 4.961952916222335
+      },
+      {
+        "label": "quiz letter .quiz__option:hover endpoint 1",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          85.16425159999999,
+          85.1947352,
+          95.20932359999999
+        ],
+        "ratio": 4.694741534514794
+      },
+      {
+        "label": "quiz card endpoint 2",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          60.4416,
+          60.4752,
+          70.5936
+        ],
+        "ratio": 6.915302949402662
+      },
+      {
+        "label": "quiz card endpoint 2",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          60.4416,
+          60.4752,
+          70.5936
+        ],
+        "ratio": 6.00306812826813
+      },
+      {
+        "label": "quiz letter .quiz__option endpoint 2",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          74.79028199999999,
+          74.821404,
+          84.19357199999999
+        ],
+        "ratio": 5.529467952318869
+      },
+      {
+        "label": "quiz letter .quiz__option:hover endpoint 2",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          78.48689159999999,
+          78.51737519999999,
+          87.69729359999998
+        ],
+        "ratio": 5.218225583595325
+      }
+    ],
+    "privacy.html": [
+      {
+        "label": "page",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          56,
+          56,
+          64
+        ],
+        "ratio": 7.425323074506537
+      },
+      {
+        "label": "page",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          56,
+          56,
+          64
+        ],
+        "ratio": 6.445808754411033
+      },
+      {
+        "label": "surface",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          64,
+          64,
+          73
+        ],
+        "ratio": 6.556031158328395
+      },
+      {
+        "label": "surface",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          64,
+          64,
+          73
+        ],
+        "ratio": 5.691189812283429
+      },
+      {
+        "label": "header over page",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          62.88,
+          62.88,
+          71.74000000000001
+        ],
+        "ratio": 6.672549539722551
+      },
+      {
+        "label": "header over page",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          62.88,
+          62.88,
+          71.74000000000001
+        ],
+        "ratio": 5.7923376270389735
+      },
+      {
+        "label": "glass endpoint 1",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          64.955,
+          64.955,
+          72.595
+        ],
+        "ratio": 6.470347049631236
+      },
+      {
+        "label": "glass endpoint 1",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          64.955,
+          64.955,
+          72.595
+        ],
+        "ratio": 5.616808755403859
+      },
+      {
+        "label": "glass endpoint 2",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          58.388000000000005,
+          58.388000000000005,
+          66.292
+        ],
+        "ratio": 7.160632079084753
+      },
+      {
+        "label": "glass endpoint 2",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          58.388000000000005,
+          58.388000000000005,
+          66.292
+        ],
+        "ratio": 6.216034572414663
+      },
+      {
+        "label": "document maximum glow",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          64.16,
+          64.52,
+          85.36
+        ],
+        "ratio": 6.402885287017463
+      },
+      {
+        "label": "document maximum glow",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          64.16,
+          64.52,
+          85.36
+        ],
+        "ratio": 5.558246236887079
+      },
+      {
+        "label": "document glass endpoint 1",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          72.7478,
+          73.09159999999999,
+          92.9938
+        ],
+        "ratio": 5.605446609673293
+      },
+      {
+        "label": "document glass endpoint 1",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          72.7478,
+          73.09159999999999,
+          92.9938
+        ],
+        "ratio": 4.86600198623909
+      },
+      {
+        "label": "document glass endpoint 2",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          66.45008,
+          66.80575999999999,
+          87.39568
+        ],
+        "ratio": 6.180540710942057
+      },
+      {
+        "label": "document glass endpoint 2",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          66.45008,
+          66.80575999999999,
+          87.39568
+        ],
+        "ratio": 5.365232330208291
+      }
+    ],
+    "consent.html": [
+      {
+        "label": "page",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          56,
+          56,
+          64
+        ],
+        "ratio": 7.425323074506537
+      },
+      {
+        "label": "page",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          56,
+          56,
+          64
+        ],
+        "ratio": 6.445808754411033
+      },
+      {
+        "label": "surface",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          64,
+          64,
+          73
+        ],
+        "ratio": 6.556031158328395
+      },
+      {
+        "label": "surface",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          64,
+          64,
+          73
+        ],
+        "ratio": 5.691189812283429
+      },
+      {
+        "label": "header over page",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          62.88,
+          62.88,
+          71.74000000000001
+        ],
+        "ratio": 6.672549539722551
+      },
+      {
+        "label": "header over page",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          62.88,
+          62.88,
+          71.74000000000001
+        ],
+        "ratio": 5.7923376270389735
+      },
+      {
+        "label": "glass endpoint 1",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          64.955,
+          64.955,
+          72.595
+        ],
+        "ratio": 6.470347049631236
+      },
+      {
+        "label": "glass endpoint 1",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          64.955,
+          64.955,
+          72.595
+        ],
+        "ratio": 5.616808755403859
+      },
+      {
+        "label": "glass endpoint 2",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          58.388000000000005,
+          58.388000000000005,
+          66.292
+        ],
+        "ratio": 7.160632079084753
+      },
+      {
+        "label": "glass endpoint 2",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          58.388000000000005,
+          58.388000000000005,
+          66.292
+        ],
+        "ratio": 6.216034572414663
+      },
+      {
+        "label": "document maximum glow",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          64.16,
+          64.52,
+          85.36
+        ],
+        "ratio": 6.402885287017463
+      },
+      {
+        "label": "document maximum glow",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          64.16,
+          64.52,
+          85.36
+        ],
+        "ratio": 5.558246236887079
+      },
+      {
+        "label": "document glass endpoint 1",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          72.7478,
+          73.09159999999999,
+          92.9938
+        ],
+        "ratio": 5.605446609673293
+      },
+      {
+        "label": "document glass endpoint 1",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          72.7478,
+          73.09159999999999,
+          92.9938
+        ],
+        "ratio": 4.86600198623909
+      },
+      {
+        "label": "document glass endpoint 2",
+        "token": "--ink-soft",
+        "foreground": [
+          206,
+          206,
+          214
+        ],
+        "background": [
+          66.45008,
+          66.80575999999999,
+          87.39568
+        ],
+        "ratio": 6.180540710942057
+      },
+      {
+        "label": "document glass endpoint 2",
+        "token": "--ink-muted",
+        "foreground": [
+          192,
+          192,
+          204
+        ],
+        "background": [
+          66.45008,
+          66.80575999999999,
+          87.39568
+        ],
+        "ratio": 5.365232330208291
+      }
+    ]
+  }
+}

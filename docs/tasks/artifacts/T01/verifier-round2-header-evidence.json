@@ -1,0 +1,327 @@
+{
+  "source": "round2-header-underlay.jpg",
+  "sourceSha256": "2c4d81c76fdad96eb2e12d8e310b93ed3819de1131aacbb0b3082ac09b8f1f89",
+  "imageSize": [
+    1440,
+    891
+  ],
+  "computedStyleSource": "round2-header-underlay.json",
+  "executor": "root through Browser plugin; assessed by independent verifier",
+  "sameGeometryAsFailedRound1": true,
+  "cssForegroundRGB": [
+    255,
+    255,
+    255
+  ],
+  "method": "Read-only samples at the same 15 image coordinates as round 1; CSS foreground is computedStyle, not antialiased glyphs. Original JPEG unchanged.",
+  "samples": [
+    {
+      "imagePoint": [
+        240,
+        44
+      ],
+      "backgroundRGB": [
+        79,
+        79,
+        89
+      ],
+      "contrastWithCSSForeground": 8.09217507590069
+    },
+    {
+      "imagePoint": [
+        250,
+        44
+      ],
+      "backgroundRGB": [
+        79,
+        79,
+        89
+      ],
+      "contrastWithCSSForeground": 8.09217507590069
+    },
+    {
+      "imagePoint": [
+        260,
+        44
+      ],
+      "backgroundRGB": [
+        79,
+        79,
+        89
+      ],
+      "contrastWithCSSForeground": 8.09217507590069
+    },
+    {
+      "imagePoint": [
+        300,
+        44
+      ],
+      "backgroundRGB": [
+        80,
+        80,
+        88
+      ],
+      "contrastWithCSSForeground": 7.986384765529676
+    },
+    {
+      "imagePoint": [
+        320,
+        44
+      ],
+      "backgroundRGB": [
+        81,
+        81,
+        89
+      ],
+      "contrastWithCSSForeground": 7.861954039286602
+    },
+    {
+      "imagePoint": [
+        240,
+        45
+      ],
+      "backgroundRGB": [
+        80,
+        80,
+        90
+      ],
+      "contrastWithCSSForeground": 7.9660236245583755
+    },
+    {
+      "imagePoint": [
+        250,
+        45
+      ],
+      "backgroundRGB": [
+        80,
+        80,
+        90
+      ],
+      "contrastWithCSSForeground": 7.9660236245583755
+    },
+    {
+      "imagePoint": [
+        260,
+        45
+      ],
+      "backgroundRGB": [
+        80,
+        80,
+        90
+      ],
+      "contrastWithCSSForeground": 7.9660236245583755
+    },
+    {
+      "imagePoint": [
+        300,
+        45
+      ],
+      "backgroundRGB": [
+        81,
+        81,
+        89
+      ],
+      "contrastWithCSSForeground": 7.861954039286602
+    },
+    {
+      "imagePoint": [
+        320,
+        45
+      ],
+      "backgroundRGB": [
+        81,
+        81,
+        89
+      ],
+      "contrastWithCSSForeground": 7.861954039286602
+    },
+    {
+      "imagePoint": [
+        240,
+        56
+      ],
+      "backgroundRGB": [
+        82,
+        82,
+        90
+      ],
+      "contrastWithCSSForeground": 7.739589941597984
+    },
+    {
+      "imagePoint": [
+        250,
+        56
+      ],
+      "backgroundRGB": [
+        83,
+        83,
+        91
+      ],
+      "contrastWithCSSForeground": 7.6192721499714855
+    },
+    {
+      "imagePoint": [
+        260,
+        56
+      ],
+      "backgroundRGB": [
+        83,
+        83,
+        91
+      ],
+      "contrastWithCSSForeground": 7.6192721499714855
+    },
+    {
+      "imagePoint": [
+        300,
+        56
+      ],
+      "backgroundRGB": [
+        83,
+        83,
+        91
+      ],
+      "contrastWithCSSForeground": 7.6192721499714855
+    },
+    {
+      "imagePoint": [
+        320,
+        56
+      ],
+      "backgroundRGB": [
+        85,
+        85,
+        93
+      ],
+      "contrastWithCSSForeground": 7.384689385803671
+    }
+  ],
+  "observedApproximateRange": [
+    7.384689385803671,
+    8.09217507590069
+  ],
+  "independentHeaderCalculations": [
+    {
+      "case": "top header/page",
+      "whiteOverlayAlpha": 0,
+      "resultingBackgroundRGB": [
+        61.76,
+        61.76,
+        70.47999999999999
+      ],
+      "whiteTextContrast": 10.623360635302943
+    },
+    {
+      "case": "top header/page",
+      "whiteOverlayAlpha": 0.05,
+      "resultingBackgroundRGB": [
+        71.422,
+        71.422,
+        79.70599999999999
+      ],
+      "whiteTextContrast": 9.137745885602554
+    },
+    {
+      "case": "top header/page",
+      "whiteOverlayAlpha": 0.06,
+      "resultingBackgroundRGB": [
+        73.3544,
+        73.3544,
+        81.55119999999998
+      ],
+      "whiteTextContrast": 8.864852269265022
+    },
+    {
+      "case": "header/white bound",
+      "whiteOverlayAlpha": 0,
+      "resultingBackgroundRGB": [
+        117.48,
+        117.48,
+        123.96000000000001
+      ],
+      "whiteTextContrast": 4.544629282963054
+    },
+    {
+      "case": "scrolled header/white",
+      "whiteOverlayAlpha": 0,
+      "resultingBackgroundRGB": [
+        90.74000000000001,
+        90.74000000000001,
+        98.48
+      ],
+      "whiteTextContrast": 6.756893603031594
+    },
+    {
+      "case": "scrolled header/white",
+      "whiteOverlayAlpha": 0.05,
+      "resultingBackgroundRGB": [
+        98.953,
+        98.953,
+        106.306
+      ],
+      "whiteTextContrast": 5.961923602468575
+    },
+    {
+      "case": "scrolled header/white",
+      "whiteOverlayAlpha": 0.06,
+      "resultingBackgroundRGB": [
+        100.5956,
+        100.5956,
+        107.8712
+      ],
+      "whiteTextContrast": 5.816400141107323
+    },
+    {
+      "case": "mobile menu/white",
+      "whiteOverlayAlpha": 0,
+      "resultingBackgroundRGB": [
+        75.46000000000001,
+        75.46000000000001,
+        83.92
+      ],
+      "whiteTextContrast": 8.572760382571763
+    },
+    {
+      "case": "mobile menu/white",
+      "whiteOverlayAlpha": 0.05,
+      "resultingBackgroundRGB": [
+        84.437,
+        84.437,
+        92.474
+      ],
+      "whiteTextContrast": 7.449571473640126
+    },
+    {
+      "case": "mobile menu/white",
+      "whiteOverlayAlpha": 0.06,
+      "resultingBackgroundRGB": [
+        86.2324,
+        86.2324,
+        94.1848
+      ],
+      "whiteTextContrast": 7.244522899878199
+    },
+    {
+      "case": "document header/white",
+      "whiteOverlayAlpha": 0,
+      "resultingBackgroundRGB": [
+        90.74000000000001,
+        90.74000000000001,
+        98.48
+      ],
+      "whiteTextContrast": 6.756893603031594
+    },
+    {
+      "case": "document header/white",
+      "whiteOverlayAlpha": 0.05,
+      "resultingBackgroundRGB": [
+        98.953,
+        98.953,
+        106.306
+      ],
+      "whiteTextContrast": 5.961923602468575
+    }
+  ],
+  "assessment": "PASS for the reproduced settled defect and tested stable header states. Background, geometry and scroll position remain unchanged.",
+  "limitations": "JPEG/rescaling estimates are approximate. Browser actions were executed by root. No certification of all animation frames, browser engines or all WCAG requirements."
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-21",
+  "github_backup": {
+    "branch": "backup/graphite-before-audit-fixes-2026-11-21",
+    "sha": "373be345f52ce109834a7ee6b29267830befab75"
+  },
+  "spaceweb_backup": {
+    "path": "/home/p/pridomahru/murrif_ru/backup-graphite-before-audit-fixes-2026-11-21",
+    "method": "File manager duplicate of public_html, renamed outside public_html",
+    "root_entries": [
+      "cgi-bin",
+      "fonts",
+      ".htaccess",
+      "consent.html",
+      "index.html",
+      "og-image.jpg",
+      "photo-fade.webp",
+      "photo-square.webp",
+      "privacy.html",
+      "robots.txt",
+      "sitemap.xml"
+    ],
+    "font_entries": [
+      "jetbrains-mono-cyrillic.woff2",
+      "jetbrains-mono-latin.woff2",
+      "OFL-JetBrainsMono.txt",
+      "OFL-Onest.txt",
+      "onest-cyrillic.woff2",
+      "onest-latin.woff2"
+    ],
+    "verification": "Folder and file inventory observed in UI; current three live HTML matched pre-fix main before copy; restoration rehearsal not performed"
+  },
+  "error_log": {
+    "domain": "murrif.ru",
+    "before": false,
+    "after": true,
+    "confirmation": "Separate logs list after navigation shows murrif.ru: access off, error on, awstats off",
+    "path": "/home/p/pridomahru/murrif_ru/error_log",
+    "rotation": "SpaceWeb UI says automatic; last 10 archives retained",
+    "other_domains_changed": false
+  }
+}

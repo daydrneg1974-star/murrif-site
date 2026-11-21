@@ -2,3 +2,16 @@ _archive/
 .claude/
 .playwright-mcp/
 CLAUDE.md
+
+# Keep only text evidence from task artifacts; existing report images are unaffected.
+/docs/tasks/artifacts/**
+!/docs/tasks/artifacts/**/
+!/docs/tasks/artifacts/**/*.md
+!/docs/tasks/artifacts/**/*.txt
+!/docs/tasks/artifacts/**/*.log
+!/docs/tasks/artifacts/**/*.tap
+!/docs/tasks/artifacts/**/*.json
+!/docs/tasks/artifacts/**/*.csv
+!/docs/tasks/artifacts/**/*.xml
+!/docs/tasks/artifacts/**/*.yml
+!/docs/tasks/artifacts/**/*.yaml

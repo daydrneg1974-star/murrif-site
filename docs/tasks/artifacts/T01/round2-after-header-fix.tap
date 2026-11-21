@@ -1,0 +1,175 @@
+TAP version 13
+# Subtest: Empty form: cancel submission, preserve fields and focus the missing value
+ok 1 - Empty form: cancel submission, preserve fields and focus the missing value
+  ---
+  duration_ms: 6.306296
+  type: 'test'
+  ...
+# Subtest: Missing name: cancel submission, preserve fields and focus the missing value
+ok 2 - Missing name: cancel submission, preserve fields and focus the missing value
+  ---
+  duration_ms: 2.470682
+  type: 'test'
+  ...
+# Subtest: Missing contact: cancel submission, preserve fields and focus the missing value
+ok 3 - Missing contact: cancel submission, preserve fields and focus the missing value
+  ---
+  duration_ms: 2.390421
+  type: 'test'
+  ...
+# Subtest: Whitespace-only name: cancel submission, preserve fields and focus the missing value
+ok 4 - Whitespace-only name: cancel submission, preserve fields and focus the missing value
+  ---
+  duration_ms: 2.297237
+  type: 'test'
+  ...
+# Subtest: Whitespace-only contact: cancel submission, preserve fields and focus the missing value
+ok 5 - Whitespace-only contact: cancel submission, preserve fields and focus the missing value
+  ---
+  duration_ms: 2.543621
+  type: 'test'
+  ...
+# Subtest: Missing consent cancels submission without navigation and focuses consent
+ok 6 - Missing consent cancels submission without navigation and focuses consent
+  ---
+  duration_ms: 3.190919
+  type: 'test'
+  ...
+# Subtest: Valid submission cancels the default, encodes the draft and preserves all five fields
+ok 7 - Valid submission cancels the default, encodes the draft and preserves all five fields
+  ---
+  duration_ms: 2.98867
+  type: 'test'
+  ...
+# Subtest: Optional empty message is represented by a dash
+ok 8 - Optional empty message is represented by a dash
+  ---
+  duration_ms: 2.100206
+  type: 'test'
+  ...
+# Subtest: Optional whitespace-only message is represented by a dash
+ok 9 - Optional whitespace-only message is represented by a dash
+  ---
+  duration_ms: 2.395612
+  type: 'test'
+  ...
+# Subtest: Repeated submission cancels each event and prepares the same draft without clearing fields
+ok 10 - Repeated submission cancels each event and prepares the same draft without clearing fields
+  ---
+  duration_ms: 3.070109
+  type: 'test'
+  ...
+# Subtest: Correcting consent after an error prepares a draft and replaces the error state
+ok 11 - Correcting consent after an error prepares a draft and replaces the error state
+  ---
+  duration_ms: 2.235888
+  type: 'test'
+  ...
+# Subtest: Configured recipient agrees with the public email contact
+ok 12 - Configured recipient agrees with the public email contact
+  ---
+  duration_ms: 1.638077
+  type: 'test'
+  ...
+# Subtest: Without JavaScript the submit button starts disabled and fallback contacts are explained
+ok 13 - Without JavaScript the submit button starts disabled and fallback contacts are explained
+  ---
+  duration_ms: 0.371647
+  type: 'test'
+  ...
+# Subtest: Successful script initialization enables the submit button
+ok 14 - Successful script initialization enables the submit button
+  ---
+  duration_ms: 1.718355
+  type: 'test'
+  ...
+# Subtest: Revoking consent after a successful draft blocks the next attempt and clears success state
+ok 15 - Revoking consent after a successful draft blocks the next attempt and clears success state
+  ---
+  duration_ms: 2.533191
+  type: 'test'
+  ...
+# Subtest: A later draft uses edited fields, while an intervening invalid attempt cannot create a draft
+ok 16 - A later draft uses edited fields, while an intervening invalid attempt cannot create a draft
+  ---
+  duration_ms: 2.542425
+  type: 'test'
+  ...
+# Subtest: index.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces
+ok 17 - index.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces
+  ---
+  duration_ms: 6.128223
+  type: 'test'
+  ...
+# 43 color/surface pairs; minimum 4.5446:1
+# Subtest: privacy.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces
+ok 18 - privacy.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces
+  ---
+  duration_ms: 0.729416
+  type: 'test'
+  ...
+# 20 color/surface pairs; minimum 4.8660:1
+# Subtest: consent.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces
+ok 19 - consent.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces
+  ---
+  duration_ms: 1.669143
+  type: 'test'
+  ...
+# 20 color/surface pairs; minimum 4.8660:1
+# Subtest: index.html: secondary header text stays legible over a light underlay
+ok 20 - index.html: secondary header text stays legible over a light underlay
+  ---
+  duration_ms: 2.850079
+  type: 'test'
+  ...
+# Subtest: privacy.html: secondary header text stays legible over a light underlay
+ok 21 - privacy.html: secondary header text stays legible over a light underlay
+  ---
+  duration_ms: 0.681305
+  type: 'test'
+  ...
+# Subtest: consent.html: secondary header text stays legible over a light underlay
+ok 22 - consent.html: secondary header text stays legible over a light underlay
+  ---
+  duration_ms: 0.615615
+  type: 'test'
+  ...
+# Subtest: Escape from an open menu closes it and returns focus to the toggle
+ok 23 - Escape from an open menu closes it and returns focus to the toggle
+  ---
+  duration_ms: 3.964253
+  type: 'test'
+  ...
+# Subtest: Escape outside the closed menu does not move focus
+ok 24 - Escape outside the closed menu does not move focus
+  ---
+  duration_ms: 1.754498
+  type: 'test'
+  ...
+# Subtest: Escape outside the open menu does not move focus
+ok 25 - Escape outside the open menu does not move focus
+  ---
+  duration_ms: 1.716907
+  type: 'test'
+  ...
+# Subtest: Other keys do not close the menu or move focus
+ok 26 - Other keys do not close the menu or move focus
+  ---
+  duration_ms: 1.754906
+  type: 'test'
+  ...
+# Subtest: Following a menu link closes the menu without cancelling anchor navigation
+ok 27 - Following a menu link closes the menu without cancelling anchor navigation
+  ---
+  duration_ms: 1.458974
+  type: 'test'
+  ...
+1..27
+# tests 27
+# suites 0
+# pass 27
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 213.571234

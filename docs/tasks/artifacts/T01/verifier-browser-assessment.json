@@ -1,0 +1,83 @@
+{
+  "source": "browser-preview-observations.json",
+  "evidenceExecutor": "root via connected Browser plugin; independent verifier could not access originating browser context",
+  "assessor": "independent task-verifier",
+  "checks": [
+    {
+      "id": "C2-open",
+      "description": "Mobile menu opens with focused link",
+      "result": "PASS"
+    },
+    {
+      "id": "C2-escape",
+      "description": "Escape closes menu and returns focus to burger",
+      "result": "PASS"
+    },
+    {
+      "id": "C2-outside",
+      "description": "Escape outside closed menu leaves name focused",
+      "result": "PASS"
+    },
+    {
+      "id": "C2-anchor",
+      "description": "Contacts link preserves anchor navigation and closes menu",
+      "result": "PASS"
+    },
+    {
+      "id": "C3-empty",
+      "description": "Invalid submit status, focus and no GET query",
+      "result": "PASS"
+    },
+    {
+      "id": "C3-partial",
+      "description": "Invalid submit status, focus and no GET query",
+      "result": "PASS"
+    },
+    {
+      "id": "C3-consent",
+      "description": "Invalid submit status, focus and no GET query",
+      "result": "PASS"
+    },
+    {
+      "id": "C3-repeat",
+      "description": "Invalid submit status, focus and no GET query",
+      "result": "PASS"
+    },
+    {
+      "id": "C3-preserved-visible-fields",
+      "description": "Repeated invalid attempt preserves name, service, message and consent",
+      "result": "PASS"
+    },
+    {
+      "id": "C1-layout",
+      "description": "Observed mobile, wide and document states have no horizontal overflow and retained graphite",
+      "result": "PASS"
+    },
+    {
+      "id": "C1-placeholder",
+      "description": "Rendered placeholder color and opacity are the corrected values",
+      "result": "PASS"
+    },
+    {
+      "id": "C3-typo",
+      "description": "Corrected sentence is present on main-page states",
+      "result": "PASS"
+    }
+  ],
+  "notClaimed": [
+    "Independent execution of browser actions: plugin was unavailable to verifier.",
+    "Exact browser preservation of contact value: tool redacted it. Isolated tests cover all five fields.",
+    "No network request of any kind: only unchanged location/no query, cancellation mocks and observed state are checked.",
+    "Complete C1 contrast: translucent-header light-underlay observation needs settled-image assessment."
+  ],
+  "cssViewportExamples": {
+    "mobile": {
+      "clientWidth": 390,
+      "innerWidth": 406
+    },
+    "wide": {
+      "clientWidth": 1440,
+      "innerWidth": 1455
+    }
+  }
+}

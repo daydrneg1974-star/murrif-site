@@ -1,0 +1,73 @@
+✔ index.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (4.985561ms)
+ℹ 32 color/surface pairs; minimum 4.6167:1
+✔ privacy.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (1.048545ms)
+ℹ 16 color/surface pairs; minimum 4.8660:1
+✔ consent.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (1.386349ms)
+ℹ 16 color/surface pairs; minimum 4.8660:1
+✖ index.html: secondary header text stays legible over a light underlay (3.759822ms)
+✖ privacy.html: secondary header text stays legible over a light underlay (0.99401ms)
+✖ consent.html: secondary header text stays legible over a light underlay (1.073025ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 3
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 155.866084
+
+✖ failing tests:
+
+test at tests/contrast.test.cjs:118:3
+✖ index.html: secondary header text stays legible over a light underlay (3.759822ms)
+  AssertionError [ERR_ASSERTION]: .header__inner / .logo__role over light content: 2.5219:1 < 4.5:1
+      at TestContext.<anonymous> (/workspace/scratch/442ff1ced666/murrif-fixes/tests/contrast.test.cjs:149:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/contrast.test.cjs:118:3
+✖ privacy.html: secondary header text stays legible over a light underlay (0.99401ms)
+  AssertionError [ERR_ASSERTION]: .header__inner / .logo__role over light content: 3.7495:1 < 4.5:1
+      at TestContext.<anonymous> (/workspace/scratch/442ff1ced666/murrif-fixes/tests/contrast.test.cjs:149:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/contrast.test.cjs:118:3
+✖ consent.html: secondary header text stays legible over a light underlay (1.073025ms)
+  AssertionError [ERR_ASSERTION]: .header__inner / .logo__role over light content: 3.7495:1 < 4.5:1
+      at TestContext.<anonymous> (/workspace/scratch/442ff1ced666/murrif-fixes/tests/contrast.test.cjs:149:9)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

@@ -1,0 +1,206 @@
+{
+  "source": "preview-header-underlay-settled.jpg",
+  "sourceSha256": "43a80af669ec5e45aa76d8a6c7d700e1cbba2374b49ae1ec7e1dafd0ffdd2b14",
+  "imageSize": [
+    1440,
+    891
+  ],
+  "observation": "Settled header with scrollY=600; hero light CTA overlaps the logo role bounding box.",
+  "computedStyleSource": "preview-header-underlay-settled.json",
+  "headerBackground": "rgba(64, 64, 73, 0.86)",
+  "foregroundRGB": [
+    192,
+    192,
+    204
+  ],
+  "method": "Read-only JPEG pixel sampling. Original image unmodified. CSS foreground color comes from computedStyle, not antialiased glyph pixels. Background samples are blank adjacent portions of the role line box; screenshot coordinates are recorded exactly.",
+  "limitations": "Approximate raster evidence: JPEG compression and screenshot rescaling prevent claiming laboratory precision. This is corroborated by settled CSS and overlapping element geometry, and supplemented with a conservative CSS regression.",
+  "samples": [
+    {
+      "imagePoint": [
+        240,
+        44
+      ],
+      "backgroundRGB": [
+        79,
+        79,
+        89
+      ],
+      "contrastWithCSSForeground": 4.490415365105584
+    },
+    {
+      "imagePoint": [
+        250,
+        44
+      ],
+      "backgroundRGB": [
+        79,
+        79,
+        89
+      ],
+      "contrastWithCSSForeground": 4.490415365105584
+    },
+    {
+      "imagePoint": [
+        260,
+        44
+      ],
+      "backgroundRGB": [
+        79,
+        79,
+        89
+      ],
+      "contrastWithCSSForeground": 4.490415365105584
+    },
+    {
+      "imagePoint": [
+        300,
+        44
+      ],
+      "backgroundRGB": [
+        80,
+        80,
+        88
+      ],
+      "contrastWithCSSForeground": 4.4317114405471525
+    },
+    {
+      "imagePoint": [
+        320,
+        44
+      ],
+      "backgroundRGB": [
+        81,
+        81,
+        89
+      ],
+      "contrastWithCSSForeground": 4.362663793928983
+    },
+    {
+      "imagePoint": [
+        240,
+        45
+      ],
+      "backgroundRGB": [
+        80,
+        80,
+        90
+      ],
+      "contrastWithCSSForeground": 4.420412873794575
+    },
+    {
+      "imagePoint": [
+        250,
+        45
+      ],
+      "backgroundRGB": [
+        80,
+        80,
+        90
+      ],
+      "contrastWithCSSForeground": 4.420412873794575
+    },
+    {
+      "imagePoint": [
+        260,
+        45
+      ],
+      "backgroundRGB": [
+        80,
+        80,
+        90
+      ],
+      "contrastWithCSSForeground": 4.420412873794575
+    },
+    {
+      "imagePoint": [
+        300,
+        45
+      ],
+      "backgroundRGB": [
+        81,
+        81,
+        89
+      ],
+      "contrastWithCSSForeground": 4.362663793928983
+    },
+    {
+      "imagePoint": [
+        320,
+        45
+      ],
+      "backgroundRGB": [
+        81,
+        81,
+        89
+      ],
+      "contrastWithCSSForeground": 4.362663793928983
+    },
+    {
+      "imagePoint": [
+        240,
+        56
+      ],
+      "backgroundRGB": [
+        82,
+        82,
+        90
+      ],
+      "contrastWithCSSForeground": 4.294762936712656
+    },
+    {
+      "imagePoint": [
+        250,
+        56
+      ],
+      "backgroundRGB": [
+        83,
+        83,
+        91
+      ],
+      "contrastWithCSSForeground": 4.22799759177787
+    },
+    {
+      "imagePoint": [
+        260,
+        56
+      ],
+      "backgroundRGB": [
+        83,
+        83,
+        91
+      ],
+      "contrastWithCSSForeground": 4.22799759177787
+    },
+    {
+      "imagePoint": [
+        300,
+        56
+      ],
+      "backgroundRGB": [
+        83,
+        83,
+        91
+      ],
+      "contrastWithCSSForeground": 4.22799759177787
+    },
+    {
+      "imagePoint": [
+        320,
+        56
+      ],
+      "backgroundRGB": [
+        85,
+        85,
+        93
+      ],
+      "contrastWithCSSForeground": 4.097825661644381
+    }
+  ],
+  "observedRange": [
+    4.097825661644381,
+    4.490415365105584
+  ],
+  "requiredMinimum": 4.5,
+  "assessment": "FAIL: 15 settled background samples range approximately 4.10–4.49:1; the lightest sample is approximately 4.10:1. Existing CSS tests only covered a header above the base page."
+}

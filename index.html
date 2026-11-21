@@ -54,8 +54,8 @@
       --line: rgba(255, 255, 255, .08);
       --line-strong: rgba(255, 255, 255, .14);
       --ink: #f4f4f5;
-      --ink-soft: #a1a1aa;
-      --ink-muted: #8b8b95;
+      --ink-soft: #ceced6;
+      --ink-muted: #c0c0cc;
       --accent: #8b8cf6;
       --accent-2: #b9bafc;
       --accent-soft: rgba(139, 140, 246, .12);
@@ -200,17 +200,17 @@
     }
     .logo__text { display: flex; flex-direction: column; line-height: 1.2; }
     .logo__name { font-size: 15px; font-weight: 600; }
-    .logo__role { font-size: 12px; color: var(--ink-muted); }
+    .logo__role { font-size: 12px; color: #ffffff; }
 
     .nav__list { display: flex; align-items: center; gap: 2px; }
     .nav__link {
       display: flex; align-items: center; min-height: 40px; padding: 0 12px; border-radius: 9px;
-      text-decoration: none; font-size: 14.5px; font-weight: 500; color: var(--ink-soft);
+      text-decoration: none; font-size: 14.5px; font-weight: 500; color: #ffffff;
       transition: color .2s ease, background-color .2s ease;
     }
-    .nav__link:hover { color: var(--ink); background: rgba(255, 255, 255, .05); }
+    .nav__link:hover { color: #ffffff; background: rgba(255, 255, 255, .05); }
     .nav__link { position: relative; }
-    .nav__link.is-active { color: var(--ink); background: rgba(255, 255, 255, .06); }
+    .nav__link.is-active { color: #ffffff; background: rgba(255, 255, 255, .06); }
     .nav__link.is-active::after {
       content: ""; position: absolute; left: 50%; bottom: 4px; width: 4px; height: 4px; margin-left: -2px;
       border-radius: 50%; background: var(--accent); box-shadow: 0 0 8px var(--accent);
@@ -488,7 +488,7 @@
     .field input:focus, .field select:focus, .field textarea:focus {
       outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-ring);
     }
-    .field input::placeholder, .field textarea::placeholder { color: #6b6b76; }
+    .field input::placeholder, .field textarea::placeholder { color: var(--ink-muted); opacity: 1; }
 
     .consent { margin-top: 16px; display: flex; gap: 12px; align-items: flex-start; min-height: 44px; padding: 10px 0; font-size: 14px; color: var(--ink-muted); cursor: pointer; }
     .consent input { margin: 2px 0 0; width: 20px; height: 20px; accent-color: var(--accent); flex: none; cursor: pointer; }
@@ -555,7 +555,7 @@
       }
       .nav.is-open { transform: none; opacity: 1; visibility: visible; }
       .nav__list { flex-direction: column; align-items: stretch; gap: 2px; }
-      .nav__link { min-height: 48px; padding: 0 14px; font-size: 16px; color: var(--ink); }
+      .nav__link { min-height: 48px; padding: 0 14px; font-size: 16px; color: #ffffff; }
       .nav__link.is-active::after { left: 4px; top: 50%; bottom: auto; width: 3px; height: 16px; margin: -8px 0 0; border-radius: 2px; }
       .nav__cta { margin: 8px 0 0; width: 100%; min-height: 48px; font-size: 15px; }
       .check-list { grid-template-columns: 1fr; gap: 20px; }
@@ -867,7 +867,7 @@
         <div class="section-head reveal">
           <span class="eyebrow">Почему я</span>
           <h2 class="section-title grad-title">Разработчик, который думает как коммерсант</h2>
-          <p class="section-lead">Технически сделать сайт может многие. Сделать так, чтобы он помогал продавать, — задача другого уровня.</p>
+          <p class="section-lead">Технически сделать сайт могут многие. Сделать так, чтобы он помогал продавать, — задача другого уровня.</p>
         </div>
 
         <div class="why__grid">
@@ -1128,7 +1128,11 @@
         if (e.target.closest('a')) setMenu(false);
       });
       document.addEventListener('keydown', function (e) {
-        if (e.key === 'Escape') setMenu(false);
+        if (e.key === 'Escape' && burger.getAttribute('aria-expanded') === 'true') {
+          var focusInMenu = nav.contains(document.activeElement);
+          setMenu(false);
+          if (focusInMenu) burger.focus();
+        }
       });
       window.addEventListener('resize', function () {
         if (window.innerWidth > 860) setMenu(false);

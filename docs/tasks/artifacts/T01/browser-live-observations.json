@@ -1,0 +1,62 @@
+{
+  "observations": [
+    {
+      "active": "burger",
+      "expanded": "false",
+      "label": "live-mobile-escape",
+      "nav": "nav",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "buttonDisabled": false,
+      "expanded": "false",
+      "label": "live-mobile-contact-navigation",
+      "scrollWidth": 320,
+      "selectText": "Нужна консультация",
+      "url": "https://murrif.ru/#contacts",
+      "width": 320
+    },
+    {
+      "active": "",
+      "label": "live-mobile-empty-form",
+      "placeholderColor": "rgb(192, 192, 204)",
+      "placeholderOpacity": "1",
+      "query": "",
+      "status": "",
+      "url": "https://murrif.ru/#contacts"
+    },
+    {
+      "active": "",
+      "label": "live-mobile-empty-form-settled",
+      "query": "",
+      "status": "",
+      "url": "https://murrif.ru/#contacts"
+    },
+    {
+      "active": "name",
+      "label": "live-mobile-visible-button-submit",
+      "query": "",
+      "status": "Пожалуйста, укажите имя и способ связи.",
+      "url": "https://murrif.ru/#contacts"
+    },
+    {
+      "clientWidth": 320,
+      "label": "live-quiz-business-card",
+      "scrollWidth": 320,
+      "service": "Сайт-визитка",
+      "url": "https://murrif.ru/#contacts"
+    }
+  ],
+  "consoleWarningsAndErrors": [],
+  "consoleScope": "captured live mobile tab during menu/form/quiz checks",
+  "errorLogConfirmed": true,
+  "logPage": "https://cp.sweb.ru/instruments/logs_and_statistics/",
+  "errorLogEnabledFor": "murrif.ru",
+  "notes": [
+    "The first locator click while auto-scrolling did not submit; fresh visible-DOM targeting submitted successfully. Empty status observations are retained rather than treated as passes.",
+    "Document pages were visually checked on the private copy; public HTML bytes were verified against the same source for all three pages. A later browser read of live privacy hit a tool deadline; it is not counted as a completed visual check.",
+    "The final desktop result was observed at document clientWidth 1521 with no horizontal overflow, background rgb(56,56,64), white header secondary text.",
+    "No physical phone, successful external mail client launch, or delivery check was performed."
+  ]
+}

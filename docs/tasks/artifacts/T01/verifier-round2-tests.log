@@ -1,0 +1,38 @@
+✔ Empty form: cancel submission, preserve fields and focus the missing value (6.492797ms)
+✔ Missing name: cancel submission, preserve fields and focus the missing value (2.053612ms)
+✔ Missing contact: cancel submission, preserve fields and focus the missing value (2.046722ms)
+✔ Whitespace-only name: cancel submission, preserve fields and focus the missing value (2.196297ms)
+✔ Whitespace-only contact: cancel submission, preserve fields and focus the missing value (1.914859ms)
+✔ Missing consent cancels submission without navigation and focuses consent (2.262593ms)
+✔ Valid submission cancels the default, encodes the draft and preserves all five fields (2.335726ms)
+✔ Optional empty message is represented by a dash (2.138533ms)
+✔ Optional whitespace-only message is represented by a dash (3.394983ms)
+✔ Repeated submission cancels each event and prepares the same draft without clearing fields (2.056505ms)
+✔ Correcting consent after an error prepares a draft and replaces the error state (2.311669ms)
+✔ Configured recipient agrees with the public email contact (1.792662ms)
+✔ Without JavaScript the submit button starts disabled and fallback contacts are explained (0.397834ms)
+✔ Successful script initialization enables the submit button (1.732083ms)
+✔ Revoking consent after a successful draft blocks the next attempt and clears success state (1.80566ms)
+✔ A later draft uses edited fields, while an intervening invalid attempt cannot create a draft (2.230843ms)
+✔ index.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (8.756376ms)
+ℹ 43 color/surface pairs; minimum 4.5446:1
+✔ privacy.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (1.651736ms)
+ℹ 20 color/surface pairs; minimum 4.8660:1
+✔ consent.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (2.098164ms)
+ℹ 20 color/surface pairs; minimum 4.8660:1
+✔ index.html: secondary header text stays legible over a light underlay (5.576438ms)
+✔ privacy.html: secondary header text stays legible over a light underlay (1.878258ms)
+✔ consent.html: secondary header text stays legible over a light underlay (1.470637ms)
+✔ Escape from an open menu closes it and returns focus to the toggle (2.999268ms)
+✔ Escape outside the closed menu does not move focus (1.250506ms)
+✔ Escape outside the open menu does not move focus (1.139248ms)
+✔ Other keys do not close the menu or move focus (1.263053ms)
+✔ Following a menu link closes the menu without cancelling anchor navigation (1.263598ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 207.781607

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "index.html",
+    "status": 200,
+    "sha256": "2c0ef35070c42e2a2c8277ea1c0a724cd0a10d557f2ed6372934bbd2d644db80",
+    "matches_pre_fix_main": true
+  },
+  {
+    "file": "privacy.html",
+    "status": 200,
+    "sha256": "f28034dbdbace786f7ff70d41cd1dd472254ae16af3b1d5d89357f9273bfeaa6",
+    "matches_pre_fix_main": true
+  },
+  {
+    "file": "consent.html",
+    "status": 200,
+    "sha256": "452390c26c6325d00e33b6df74fd8aaac20f33420e78d675dd1817d85eabaa6b",
+    "matches_pre_fix_main": true
+  }
+]

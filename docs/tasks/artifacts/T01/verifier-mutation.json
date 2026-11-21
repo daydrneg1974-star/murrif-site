@@ -1,0 +1,28 @@
+{
+  "control": {
+    "exitCode": 0,
+    "counts": {
+      "tests": 16,
+      "pass": 16,
+      "fail": 0,
+      "skipped": 0
+    },
+    "cancellationFailures": 0
+  },
+  "mutant": {
+    "exitCode": 1,
+    "counts": {
+      "tests": 16,
+      "pass": 3,
+      "fail": 13,
+      "skipped": 0
+    },
+    "cancellationFailures": 13
+  },
+  "change": "Removed exactly one e.preventDefault(); from the form submit callback, in a temporary copy only.",
+  "workingHtmlBeforeSha256": "4d68c15bc85bd91bedecabffff7c2c4906374cd317b4dedaeda4b1b7597381c7",
+  "workingHtmlAfterSha256": "4d68c15bc85bd91bedecabffff7c2c4906374cd317b4dedaeda4b1b7597381c7",
+  "actualEmailsSent": 0,
+  "externalNavigation": "mock window.location; all draft recipients overwritten to owner@example.invalid",
+  "temporaryCopyRemoved": true
+}

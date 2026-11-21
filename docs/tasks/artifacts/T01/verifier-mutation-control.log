@@ -1,0 +1,24 @@
+✔ Empty form: cancel submission, preserve fields and focus the missing value (4.325206ms)
+✔ Missing name: cancel submission, preserve fields and focus the missing value (1.386523ms)
+✔ Missing contact: cancel submission, preserve fields and focus the missing value (1.21737ms)
+✔ Whitespace-only name: cancel submission, preserve fields and focus the missing value (1.399315ms)
+✔ Whitespace-only contact: cancel submission, preserve fields and focus the missing value (1.328807ms)
+✔ Missing consent cancels submission without navigation and focuses consent (1.679448ms)
+✔ Valid submission cancels the default, encodes the draft and preserves all five fields (1.554823ms)
+✔ Optional empty message is represented by a dash (1.501473ms)
+✔ Optional whitespace-only message is represented by a dash (2.583156ms)
+✔ Repeated submission cancels each event and prepares the same draft without clearing fields (1.484811ms)
+✔ Correcting consent after an error prepares a draft and replaces the error state (1.557928ms)
+✔ Configured recipient agrees with the public email contact (1.202171ms)
+✔ Without JavaScript the submit button starts disabled and fallback contacts are explained (0.382124ms)
+✔ Successful script initialization enables the submit button (1.284551ms)
+✔ Revoking consent after a successful draft blocks the next attempt and clears success state (1.279916ms)
+✔ A later draft uses edited fields, while an intervening invalid attempt cannot create a draft (1.443419ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 170.217551

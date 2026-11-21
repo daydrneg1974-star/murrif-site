@@ -1,0 +1,35 @@
+✔ Empty form: cancel submission, preserve fields and focus the missing value (5.905657ms)
+✔ Missing name: cancel submission, preserve fields and focus the missing value (1.496618ms)
+✔ Missing contact: cancel submission, preserve fields and focus the missing value (1.257145ms)
+✔ Whitespace-only name: cancel submission, preserve fields and focus the missing value (1.858121ms)
+✔ Whitespace-only contact: cancel submission, preserve fields and focus the missing value (1.722632ms)
+✔ Missing consent cancels submission without navigation and focuses consent (1.822433ms)
+✔ Valid submission cancels the default, encodes the draft and preserves all five fields (1.891423ms)
+✔ Optional empty message is represented by a dash (1.623973ms)
+✔ Optional whitespace-only message is represented by a dash (1.69235ms)
+✔ Repeated submission cancels each event and prepares the same draft without clearing fields (3.280653ms)
+✔ Correcting consent after an error prepares a draft and replaces the error state (2.016108ms)
+✔ Configured recipient agrees with the public email contact (1.473349ms)
+✔ Without JavaScript the submit button starts disabled and fallback contacts are explained (0.320103ms)
+✔ Successful script initialization enables the submit button (1.812251ms)
+✔ Revoking consent after a successful draft blocks the next attempt and clears success state (1.737196ms)
+✔ A later draft uses edited fields, while an intervening invalid attempt cannot create a draft (1.87944ms)
+✔ index.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (5.036108ms)
+ℹ 32 color/surface pairs; minimum 4.6167:1
+✔ privacy.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (1.104636ms)
+ℹ 16 color/surface pairs; minimum 4.8660:1
+✔ consent.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (0.917572ms)
+ℹ 16 color/surface pairs; minimum 4.8660:1
+✔ Escape from an open menu closes it and returns focus to the toggle (3.308605ms)
+✔ Escape outside the closed menu does not move focus (1.757216ms)
+✔ Escape outside the open menu does not move focus (1.705493ms)
+✔ Other keys do not close the menu or move focus (1.373948ms)
+✔ Following a menu link closes the menu without cancelling anchor navigation (1.391323ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 196.420422

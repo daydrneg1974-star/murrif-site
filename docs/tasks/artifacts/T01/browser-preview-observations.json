@@ -1,0 +1,1450 @@
+{
+  "captured_at": "2026-11-21T11:31:59.037Z",
+  "executor": "root via connected Browser plugin; independent verifier could not access originating browser context",
+  "limitations": [
+    "Contact input values are redacted by browser tool; exact contact preservation is not claimed from this UI read and is independently checked in isolated tests.",
+    "Screenshots are from a desktop Chrome with explicit viewport, not physical phones.",
+    "Header underlay geometry was recorded; initial computed style was sampled during transition, settled style is in the following header-layers row."
+  ],
+  "observations": [
+    {
+      "label": "preview-mobile-initial",
+      "active": {
+        "id": "",
+        "tag": "BODY",
+        "text": "\n  Перейти к содержанию\n\n  \n  \n    \n      \n        РМ\n        \n        \n          Рифкат М"
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 390,
+      "form": {
+        "buttonDisabled": false,
+        "fields": [
+          {
+            "checked": false,
+            "name": "name",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "contact",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "service",
+            "value": "Пока не знаю, нужна консультация"
+          },
+          {
+            "checked": false,
+            "name": "message",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "consent",
+            "value": "on"
+          }
+        ],
+        "status": ""
+      },
+      "innerWidth": 406,
+      "menu": {
+        "className": "nav",
+        "expanded": "false"
+      },
+      "placeholder": {
+        "color": "rgb(192, 192, 204)",
+        "formBackground": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+        "inputBackground": "rgba(0, 0, 0, 0.12)",
+        "opacity": "1"
+      },
+      "scrollWidth": 390,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "11.5px",
+          "selector": ".card__label",
+          "text": "Подойдёт, если"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "15px",
+          "selector": ".contacts__hint",
+          "text": "Первая консультация — чтобы понять задачу и предложить подходящий формат."
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": ".consent",
+          "text": "\n            \n            Даю согласие на обработку персональных данных\n          "
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".form__note",
+          "text": "Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла."
+        },
+        {
+          "absent": true,
+          "selector": ".doc__meta"
+        },
+        {
+          "absent": true,
+          "selector": ".card dt"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев. Сайты и приложения для бизнеса.\n      \n        Политика обработк"
+        }
+      ],
+      "typoFixed": true,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/"
+    },
+    {
+      "label": "preview-menu-link-focus",
+      "active": {
+        "id": "",
+        "tag": "A",
+        "text": "Услуги"
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 390,
+      "form": {
+        "buttonDisabled": false,
+        "fields": [
+          {
+            "checked": false,
+            "name": "name",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "contact",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "service",
+            "value": "Пока не знаю, нужна консультация"
+          },
+          {
+            "checked": false,
+            "name": "message",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "consent",
+            "value": "on"
+          }
+        ],
+        "status": ""
+      },
+      "innerWidth": 406,
+      "menu": {
+        "className": "nav is-open",
+        "expanded": "true"
+      },
+      "placeholder": {
+        "color": "rgb(192, 192, 204)",
+        "formBackground": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+        "inputBackground": "rgba(0, 0, 0, 0.12)",
+        "opacity": "1"
+      },
+      "scrollWidth": 390,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "11.5px",
+          "selector": ".card__label",
+          "text": "Подойдёт, если"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "15px",
+          "selector": ".contacts__hint",
+          "text": "Первая консультация — чтобы понять задачу и предложить подходящий формат."
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": ".consent",
+          "text": "\n            \n            Даю согласие на обработку персональных данных\n          "
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".form__note",
+          "text": "Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла."
+        },
+        {
+          "absent": true,
+          "selector": ".doc__meta"
+        },
+        {
+          "absent": true,
+          "selector": ".card dt"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев. Сайты и приложения для бизнеса.\n      \n        Политика обработк"
+        }
+      ],
+      "typoFixed": true,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/"
+    },
+    {
+      "label": "preview-menu-escape",
+      "active": {
+        "id": "burger",
+        "tag": "BUTTON",
+        "text": "\n        \n      "
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 390,
+      "form": {
+        "buttonDisabled": false,
+        "fields": [
+          {
+            "checked": false,
+            "name": "name",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "contact",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "service",
+            "value": "Пока не знаю, нужна консультация"
+          },
+          {
+            "checked": false,
+            "name": "message",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "consent",
+            "value": "on"
+          }
+        ],
+        "status": ""
+      },
+      "innerWidth": 406,
+      "menu": {
+        "className": "nav",
+        "expanded": "false"
+      },
+      "placeholder": {
+        "color": "rgb(192, 192, 204)",
+        "formBackground": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+        "inputBackground": "rgba(0, 0, 0, 0.12)",
+        "opacity": "1"
+      },
+      "scrollWidth": 390,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "11.5px",
+          "selector": ".card__label",
+          "text": "Подойдёт, если"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "15px",
+          "selector": ".contacts__hint",
+          "text": "Первая консультация — чтобы понять задачу и предложить подходящий формат."
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": ".consent",
+          "text": "\n            \n            Даю согласие на обработку персональных данных\n          "
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".form__note",
+          "text": "Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла."
+        },
+        {
+          "absent": true,
+          "selector": ".doc__meta"
+        },
+        {
+          "absent": true,
+          "selector": ".card dt"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев. Сайты и приложения для бизнеса.\n      \n        Политика обработк"
+        }
+      ],
+      "typoFixed": true,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/"
+    },
+    {
+      "label": "preview-escape-closed-outside",
+      "active": {
+        "id": "name",
+        "tag": "INPUT",
+        "text": ""
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 390,
+      "form": {
+        "buttonDisabled": false,
+        "fields": [
+          {
+            "checked": false,
+            "name": "name",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "contact",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "service",
+            "value": "Пока не знаю, нужна консультация"
+          },
+          {
+            "checked": false,
+            "name": "message",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "consent",
+            "value": "on"
+          }
+        ],
+        "status": ""
+      },
+      "innerWidth": 406,
+      "menu": {
+        "className": "nav",
+        "expanded": "false"
+      },
+      "placeholder": {
+        "color": "rgb(192, 192, 204)",
+        "formBackground": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+        "inputBackground": "rgba(0, 0, 0, 0.12)",
+        "opacity": "1"
+      },
+      "scrollWidth": 390,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "11.5px",
+          "selector": ".card__label",
+          "text": "Подойдёт, если"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "15px",
+          "selector": ".contacts__hint",
+          "text": "Первая консультация — чтобы понять задачу и предложить подходящий формат."
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": ".consent",
+          "text": "\n            \n            Даю согласие на обработку персональных данных\n          "
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".form__note",
+          "text": "Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла."
+        },
+        {
+          "absent": true,
+          "selector": ".doc__meta"
+        },
+        {
+          "absent": true,
+          "selector": ".card dt"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев. Сайты и приложения для бизнеса.\n      \n        Политика обработк"
+        }
+      ],
+      "typoFixed": true,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/"
+    },
+    {
+      "label": "preview-menu-contact-navigation",
+      "active": {
+        "id": "",
+        "tag": "BODY",
+        "text": "\n  Перейти к содержанию\n\n  \n  \n    \n      \n        РМ\n        \n        \n          Рифкат М"
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 390,
+      "form": {
+        "buttonDisabled": false,
+        "fields": [
+          {
+            "checked": false,
+            "name": "name",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "contact",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "service",
+            "value": "Пока не знаю, нужна консультация"
+          },
+          {
+            "checked": false,
+            "name": "message",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "consent",
+            "value": "on"
+          }
+        ],
+        "status": ""
+      },
+      "innerWidth": 406,
+      "menu": {
+        "className": "nav",
+        "expanded": "false"
+      },
+      "placeholder": {
+        "color": "rgb(192, 192, 204)",
+        "formBackground": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+        "inputBackground": "rgba(0, 0, 0, 0.12)",
+        "opacity": "1"
+      },
+      "scrollWidth": 390,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "11.5px",
+          "selector": ".card__label",
+          "text": "Подойдёт, если"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "15px",
+          "selector": ".contacts__hint",
+          "text": "Первая консультация — чтобы понять задачу и предложить подходящий формат."
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": ".consent",
+          "text": "\n            \n            Даю согласие на обработку персональных данных\n          "
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".form__note",
+          "text": "Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла."
+        },
+        {
+          "absent": true,
+          "selector": ".doc__meta"
+        },
+        {
+          "absent": true,
+          "selector": ".card dt"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев. Сайты и приложения для бизнеса.\n      \n        Политика обработк"
+        }
+      ],
+      "typoFixed": true,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/#contacts"
+    },
+    {
+      "label": "preview-empty-form",
+      "active": {
+        "id": "name",
+        "tag": "INPUT",
+        "text": ""
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 390,
+      "form": {
+        "buttonDisabled": false,
+        "fields": [
+          {
+            "checked": false,
+            "name": "name",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "contact",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "service",
+            "value": "Пока не знаю, нужна консультация"
+          },
+          {
+            "checked": false,
+            "name": "message",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "consent",
+            "value": "on"
+          }
+        ],
+        "status": "Пожалуйста, укажите имя и способ связи."
+      },
+      "innerWidth": 406,
+      "menu": {
+        "className": "nav",
+        "expanded": "false"
+      },
+      "placeholder": {
+        "color": "rgb(192, 192, 204)",
+        "formBackground": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+        "inputBackground": "rgba(0, 0, 0, 0.12)",
+        "opacity": "1"
+      },
+      "scrollWidth": 390,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "11.5px",
+          "selector": ".card__label",
+          "text": "Подойдёт, если"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "15px",
+          "selector": ".contacts__hint",
+          "text": "Первая консультация — чтобы понять задачу и предложить подходящий формат."
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": ".consent",
+          "text": "\n            \n            Даю согласие на обработку персональных данных\n          "
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".form__note",
+          "text": "Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла."
+        },
+        {
+          "absent": true,
+          "selector": ".doc__meta"
+        },
+        {
+          "absent": true,
+          "selector": ".card dt"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев. Сайты и приложения для бизнеса.\n      \n        Политика обработк"
+        }
+      ],
+      "typoFixed": true,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/#contacts"
+    },
+    {
+      "label": "preview-name-only-form",
+      "active": {
+        "id": "contact",
+        "tag": "INPUT",
+        "text": ""
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 390,
+      "form": {
+        "buttonDisabled": false,
+        "fields": [
+          {
+            "checked": false,
+            "name": "name",
+            "value": "Проверка"
+          },
+          {
+            "checked": false,
+            "name": "contact",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "service",
+            "value": "Пока не знаю, нужна консультация"
+          },
+          {
+            "checked": false,
+            "name": "message",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "consent",
+            "value": "on"
+          }
+        ],
+        "status": "Пожалуйста, укажите имя и способ связи."
+      },
+      "innerWidth": 406,
+      "menu": {
+        "className": "nav",
+        "expanded": "false"
+      },
+      "placeholder": {
+        "color": "rgb(192, 192, 204)",
+        "formBackground": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+        "inputBackground": "rgba(0, 0, 0, 0.12)",
+        "opacity": "1"
+      },
+      "scrollWidth": 390,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "11.5px",
+          "selector": ".card__label",
+          "text": "Подойдёт, если"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "15px",
+          "selector": ".contacts__hint",
+          "text": "Первая консультация — чтобы понять задачу и предложить подходящий формат."
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": ".consent",
+          "text": "\n            \n            Даю согласие на обработку персональных данных\n          "
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".form__note",
+          "text": "Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла."
+        },
+        {
+          "absent": true,
+          "selector": ".doc__meta"
+        },
+        {
+          "absent": true,
+          "selector": ".card dt"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев. Сайты и приложения для бизнеса.\n      \n        Политика обработк"
+        }
+      ],
+      "typoFixed": true,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/#contacts"
+    },
+    {
+      "label": "preview-no-consent",
+      "active": {
+        "id": "consent",
+        "tag": "INPUT",
+        "text": ""
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 390,
+      "form": {
+        "buttonDisabled": false,
+        "fields": [
+          {
+            "checked": false,
+            "name": "name",
+            "value": "Проверка"
+          },
+          {
+            "checked": false,
+            "name": "contact",
+            "value": "<redacted>"
+          },
+          {
+            "checked": false,
+            "name": "service",
+            "value": "Пока не знаю, нужна консультация"
+          },
+          {
+            "checked": false,
+            "name": "message",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "consent",
+            "value": "on"
+          }
+        ],
+        "status": "Отметьте согласие на обработку данных, чтобы отправить заявку."
+      },
+      "innerWidth": 406,
+      "menu": {
+        "className": "nav",
+        "expanded": "false"
+      },
+      "placeholder": {
+        "color": "rgb(192, 192, 204)",
+        "formBackground": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+        "inputBackground": "rgba(0, 0, 0, 0.12)",
+        "opacity": "1"
+      },
+      "scrollWidth": 390,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "11.5px",
+          "selector": ".card__label",
+          "text": "Подойдёт, если"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "15px",
+          "selector": ".contacts__hint",
+          "text": "Первая консультация — чтобы понять задачу и предложить подходящий формат."
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": ".consent",
+          "text": "\n            \n            Даю согласие на обработку персональных данных\n          "
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".form__note",
+          "text": "Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла."
+        },
+        {
+          "absent": true,
+          "selector": ".doc__meta"
+        },
+        {
+          "absent": true,
+          "selector": ".card dt"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев. Сайты и приложения для бизнеса.\n      \n        Политика обработк"
+        }
+      ],
+      "typoFixed": true,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/#contacts"
+    },
+    {
+      "label": "preview-no-consent-repeat",
+      "active": {
+        "id": "consent",
+        "tag": "INPUT",
+        "text": ""
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 390,
+      "form": {
+        "buttonDisabled": false,
+        "fields": [
+          {
+            "checked": false,
+            "name": "name",
+            "value": "Проверка"
+          },
+          {
+            "checked": false,
+            "name": "contact",
+            "value": "<redacted>"
+          },
+          {
+            "checked": false,
+            "name": "service",
+            "value": "Пока не знаю, нужна консультация"
+          },
+          {
+            "checked": false,
+            "name": "message",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "consent",
+            "value": "on"
+          }
+        ],
+        "status": "Отметьте согласие на обработку данных, чтобы отправить заявку."
+      },
+      "innerWidth": 406,
+      "menu": {
+        "className": "nav",
+        "expanded": "false"
+      },
+      "placeholder": {
+        "color": "rgb(192, 192, 204)",
+        "formBackground": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+        "inputBackground": "rgba(0, 0, 0, 0.12)",
+        "opacity": "1"
+      },
+      "scrollWidth": 390,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "11.5px",
+          "selector": ".card__label",
+          "text": "Подойдёт, если"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "15px",
+          "selector": ".contacts__hint",
+          "text": "Первая консультация — чтобы понять задачу и предложить подходящий формат."
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": ".consent",
+          "text": "\n            \n            Даю согласие на обработку персональных данных\n          "
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".form__note",
+          "text": "Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла."
+        },
+        {
+          "absent": true,
+          "selector": ".doc__meta"
+        },
+        {
+          "absent": true,
+          "selector": ".card dt"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев. Сайты и приложения для бизнеса.\n      \n        Политика обработк"
+        }
+      ],
+      "typoFixed": true,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/#contacts"
+    },
+    {
+      "label": "preview-desktop-form",
+      "active": {
+        "id": "consent",
+        "tag": "INPUT",
+        "text": ""
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 1440,
+      "form": {
+        "buttonDisabled": false,
+        "fields": [
+          {
+            "checked": false,
+            "name": "name",
+            "value": "Проверка"
+          },
+          {
+            "checked": false,
+            "name": "contact",
+            "value": "<redacted>"
+          },
+          {
+            "checked": false,
+            "name": "service",
+            "value": "Пока не знаю, нужна консультация"
+          },
+          {
+            "checked": false,
+            "name": "message",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "consent",
+            "value": "on"
+          }
+        ],
+        "status": "Отметьте согласие на обработку данных, чтобы отправить заявку."
+      },
+      "innerWidth": 1455,
+      "menu": {
+        "className": "nav",
+        "expanded": "false"
+      },
+      "placeholder": {
+        "color": "rgb(192, 192, 204)",
+        "formBackground": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+        "inputBackground": "rgba(0, 0, 0, 0.12)",
+        "opacity": "1"
+      },
+      "scrollWidth": 1440,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "11.5px",
+          "selector": ".card__label",
+          "text": "Подойдёт, если"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "15px",
+          "selector": ".contacts__hint",
+          "text": "Первая консультация — чтобы понять задачу и предложить подходящий формат."
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": ".consent",
+          "text": "\n            \n            Даю согласие на обработку персональных данных\n          "
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".form__note",
+          "text": "Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла."
+        },
+        {
+          "absent": true,
+          "selector": ".doc__meta"
+        },
+        {
+          "absent": true,
+          "selector": ".card dt"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев. Сайты и приложения для бизнеса.\n      \n        Политика обработк"
+        }
+      ],
+      "typoFixed": true,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/#contacts"
+    },
+    {
+      "label": "preview-desktop-hero",
+      "active": {
+        "id": "",
+        "tag": "BODY",
+        "text": "\n  Перейти к содержанию\n\n  \n  \n    \n      \n        РМ\n        \n        \n          Рифкат М"
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 1440,
+      "form": {
+        "buttonDisabled": false,
+        "fields": [
+          {
+            "checked": false,
+            "name": "name",
+            "value": "Проверка"
+          },
+          {
+            "checked": false,
+            "name": "contact",
+            "value": "<redacted>"
+          },
+          {
+            "checked": false,
+            "name": "service",
+            "value": "Пока не знаю, нужна консультация"
+          },
+          {
+            "checked": false,
+            "name": "message",
+            "value": ""
+          },
+          {
+            "checked": false,
+            "name": "consent",
+            "value": "on"
+          }
+        ],
+        "status": "Отметьте согласие на обработку данных, чтобы отправить заявку."
+      },
+      "innerWidth": 1455,
+      "menu": {
+        "className": "nav",
+        "expanded": "false"
+      },
+      "placeholder": {
+        "color": "rgb(192, 192, 204)",
+        "formBackground": "linear-gradient(rgb(68, 68, 78), rgb(60, 60, 69))",
+        "inputBackground": "rgba(0, 0, 0, 0.12)",
+        "opacity": "1"
+      },
+      "scrollWidth": 1440,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "11.5px",
+          "selector": ".card__label",
+          "text": "Подойдёт, если"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "15px",
+          "selector": ".contacts__hint",
+          "text": "Первая консультация — чтобы понять задачу и предложить подходящий формат."
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": ".consent",
+          "text": "\n            \n            Даю согласие на обработку персональных данных\n          "
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".form__note",
+          "text": "Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла."
+        },
+        {
+          "absent": true,
+          "selector": ".doc__meta"
+        },
+        {
+          "absent": true,
+          "selector": ".card dt"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев. Сайты и приложения для бизнеса.\n      \n        Политика обработк"
+        }
+      ],
+      "typoFixed": true,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/#top"
+    },
+    {
+      "label": "preview-header-light-underlay",
+      "cta": {
+        "bottom": 84.79999923706055,
+        "height": 50,
+        "left": 170,
+        "right": 373.6000061035156,
+        "top": 34.79999923706055,
+        "width": 203.60000610351562,
+        "x": 170,
+        "y": 34.79999923706055
+      },
+      "headerBackground": "rgba(64, 64, 73, 0.72)",
+      "role": {
+        "bottom": 58.19999980926514,
+        "height": 14.40000057220459,
+        "left": 210.8000030517578,
+        "right": 405.88751220703125,
+        "top": 43.79999923706055,
+        "width": 195.08750915527344,
+        "x": 210.8000030517578,
+        "y": 43.79999923706055
+      },
+      "roleColor": "rgb(192, 192, 204)",
+      "scrollY": 600
+    },
+    {
+      "label": "preview-header-layers",
+      "layers": [
+        {
+          "after": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "backdropFilter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "className": "header is-scrolled",
+          "image": "none",
+          "selector": ".header"
+        },
+        {
+          "after": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "backdropFilter": "saturate(1.8) blur(16px)",
+          "background": "rgba(64, 64, 73, 0.86)",
+          "before": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "className": "header__inner",
+          "image": "none",
+          "selector": ".header__inner"
+        },
+        {
+          "after": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "backdropFilter": "none",
+          "background": "rgba(0, 0, 0, 0)",
+          "before": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+          "className": "logo__role",
+          "image": "none",
+          "selector": ".logo__role"
+        }
+      ]
+    },
+    {
+      "label": "preview-privacy-desktop",
+      "active": {
+        "id": "",
+        "tag": "BODY",
+        "text": "\n  Перейти к содержанию\n\n  \n    \n      \n        РМ\n        \n        \n          Рифкат Мура"
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 1440,
+      "form": {
+        "fields": []
+      },
+      "innerWidth": 1455,
+      "menu": {},
+      "placeholder": null,
+      "scrollWidth": 1440,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "absent": true,
+          "selector": ".card__label"
+        },
+        {
+          "absent": true,
+          "selector": ".contacts__hint"
+        },
+        {
+          "absent": true,
+          "selector": ".consent"
+        },
+        {
+          "absent": true,
+          "selector": ".form__note"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".doc__meta",
+          "text": "Опубликовано: 14.10.2026"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".card dt",
+          "text": "Оператор"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев\n      \n        Политика обработки персональных данных\n        Сог"
+        }
+      ],
+      "typoFixed": false,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/privacy"
+    },
+    {
+      "label": "preview-consent-desktop",
+      "active": {
+        "id": "",
+        "tag": "BODY",
+        "text": "\n  Перейти к содержанию\n\n  \n    \n      \n        РМ\n        \n        \n          Рифкат Мура"
+      },
+      "bg": "rgb(56, 56, 64)",
+      "clientWidth": 1440,
+      "form": {
+        "fields": []
+      },
+      "innerWidth": 1455,
+      "menu": {},
+      "placeholder": null,
+      "scrollWidth": 1440,
+      "styles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "12px",
+          "selector": ".logo__role",
+          "text": "Сайты и приложения для бизнеса"
+        },
+        {
+          "absent": true,
+          "selector": ".card__label"
+        },
+        {
+          "absent": true,
+          "selector": ".contacts__hint"
+        },
+        {
+          "absent": true,
+          "selector": ".consent"
+        },
+        {
+          "absent": true,
+          "selector": ".form__note"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".doc__meta",
+          "text": "Опубликовано: 14.10.2026"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "13px",
+          "selector": ".card dt",
+          "text": "Оператор"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "color": "rgb(192, 192, 204)",
+          "fontSize": "14px",
+          "selector": "footer",
+          "text": "\n    \n      © 2026 Рифкат Муравлев\n      \n        Политика обработки персональных данных\n        Сог"
+        }
+      ],
+      "typoFixed": false,
+      "url": "https://murrif-light-review.daydrneg1974.chatgpt.site/consent"
+    }
+  ]
+}

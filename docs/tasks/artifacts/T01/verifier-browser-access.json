@@ -1,0 +1,9 @@
+{
+  "attempt": "Browser plugin bootstrap",
+  "result": "unavailable in subagent context",
+  "error": "Browser access requires the originating browser context. Open ChatGPT in the browser with the connected extension and try again.",
+  "browserChanged": false,
+  "viewportChanged": false,
+  "fallbackUsed": false,
+  "independentBrowserVerification": false
+}

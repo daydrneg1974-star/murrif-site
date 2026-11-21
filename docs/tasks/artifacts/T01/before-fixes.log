@@ -1,0 +1,112 @@
+✔ Empty form: cancel submission, preserve fields and focus the missing value (5.476234ms)
+✔ Missing name: cancel submission, preserve fields and focus the missing value (1.85741ms)
+✔ Missing contact: cancel submission, preserve fields and focus the missing value (1.549991ms)
+✔ Whitespace-only name: cancel submission, preserve fields and focus the missing value (1.663218ms)
+✔ Whitespace-only contact: cancel submission, preserve fields and focus the missing value (1.693237ms)
+✔ Missing consent cancels submission without navigation and focuses consent (1.84322ms)
+✔ Valid submission cancels the default, encodes the draft and preserves all five fields (1.938647ms)
+✔ Optional empty message is represented by a dash (1.78275ms)
+✔ Optional whitespace-only message is represented by a dash (2.159596ms)
+✔ Repeated submission cancels each event and prepares the same draft without clearing fields (2.913782ms)
+✔ Correcting consent after an error prepares a draft and replaces the error state (1.861238ms)
+✔ Configured recipient agrees with the public email contact (1.717427ms)
+✔ Without JavaScript the submit button starts disabled and fallback contacts are explained (0.595531ms)
+✔ Successful script initialization enables the submit button (1.638607ms)
+✖ index.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (5.648708ms)
+✖ privacy.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (1.389442ms)
+✖ consent.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (1.049928ms)
+✖ Escape from an open menu closes it and returns focus to the toggle (4.622073ms)
+✔ Escape outside the closed menu does not move focus (1.545007ms)
+✔ Escape outside the open menu does not move focus (1.509313ms)
+✔ Other keys do not close the menu or move focus (1.365346ms)
+✔ Following a menu link closes the menu without cancelling anchor navigation (1.29602ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 18
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 215.412075
+
+✖ failing tests:
+
+test at tests/contrast.test.cjs:103:3
+✖ index.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (5.648708ms)
+  AssertionError [ERR_ASSERTION]: Missing .field input::placeholder, .field textarea::placeholder / opacity
+      at property (/workspace/scratch/442ff1ced666/murrif-fixes/tests/contrast.test.cjs:44:5)
+      at measure (/workspace/scratch/442ff1ced666/murrif-fixes/tests/contrast.test.cjs:72:18)
+      at TestContext.<anonymous> (/workspace/scratch/442ff1ced666/murrif-fixes/tests/contrast.test.cjs:104:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: null,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/contrast.test.cjs:103:3
+✖ privacy.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (1.389442ms)
+  AssertionError [ERR_ASSERTION]: page / --ink-muted: 3.4432:1
+      at TestContext.<anonymous> (/workspace/scratch/442ff1ced666/murrif-fixes/tests/contrast.test.cjs:106:7)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/contrast.test.cjs:103:3
+✖ consent.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (1.049928ms)
+  AssertionError [ERR_ASSERTION]: page / --ink-muted: 3.4432:1
+      at TestContext.<anonymous> (/workspace/scratch/442ff1ced666/murrif-fixes/tests/contrast.test.cjs:106:7)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/mobile-menu.test.cjs:41:1
+✖ Escape from an open menu closes it and returns focus to the toggle (4.622073ms)
+  AssertionError [ERR_ASSERTION]: Expected "actual" to be reference-equal to "expected":
+  + actual - expected
+  
+    {
+  +   closest: [Function: closest]
+  -   addEventListener: [Function: addEventListener],
+  -   focus: [Function: focus],
+  -   getAttribute: [Function: getAttribute],
+  -   setAttribute: [Function: setAttribute]
+    }
+  
+      at TestContext.<anonymous> (/workspace/scratch/442ff1ced666/murrif-fixes/tests/mobile-menu.test.cjs:50:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [Object],
+    expected: [Object],
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

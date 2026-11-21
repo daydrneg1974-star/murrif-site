@@ -1,0 +1,310 @@
+✖ Empty form: cancel submission, preserve fields and focus the missing value (4.036799ms)
+✖ Missing name: cancel submission, preserve fields and focus the missing value (1.373475ms)
+✖ Missing contact: cancel submission, preserve fields and focus the missing value (1.246351ms)
+✖ Whitespace-only name: cancel submission, preserve fields and focus the missing value (1.253564ms)
+✖ Whitespace-only contact: cancel submission, preserve fields and focus the missing value (1.297018ms)
+✖ Missing consent cancels submission without navigation and focuses consent (1.516409ms)
+✖ Valid submission cancels the default, encodes the draft and preserves all five fields (1.462966ms)
+✖ Optional empty message is represented by a dash (1.274821ms)
+✖ Optional whitespace-only message is represented by a dash (1.462071ms)
+✖ Repeated submission cancels each event and prepares the same draft without clearing fields (2.316952ms)
+✖ Correcting consent after an error prepares a draft and replaces the error state (1.66447ms)
+✔ Configured recipient agrees with the public email contact (1.303253ms)
+✔ Without JavaScript the submit button starts disabled and fallback contacts are explained (0.429075ms)
+✔ Successful script initialization enables the submit button (1.152551ms)
+✖ Revoking consent after a successful draft blocks the next attempt and clears success state (1.413655ms)
+✖ A later draft uses edited fields, while an intervening invalid attempt cannot create a draft (1.309561ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 3
+ℹ fail 13
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 164.759979
+
+✖ failing tests:
+
+test at tests/contact-form.test.cjs:96:3
+✖ Empty form: cancel submission, preserve fields and focus the missing value (4.036799ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:98:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:96:3
+✖ Missing name: cancel submission, preserve fields and focus the missing value (1.373475ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:98:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:96:3
+✖ Missing contact: cancel submission, preserve fields and focus the missing value (1.246351ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:98:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:96:3
+✖ Whitespace-only name: cancel submission, preserve fields and focus the missing value (1.253564ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:98:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:96:3
+✖ Whitespace-only contact: cancel submission, preserve fields and focus the missing value (1.297018ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:98:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:107:1
+✖ Missing consent cancels submission without navigation and focuses consent (1.516409ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:109:8)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:117:1
+✖ Valid submission cancels the default, encodes the draft and preserves all five fields (1.462966ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:124:8)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:143:3
+✖ Optional empty message is represented by a dash (1.274821ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:145:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:143:3
+✖ Optional whitespace-only message is represented by a dash (1.462071ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:145:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:151:1
+✖ Repeated submission cancels each event and prepares the same draft without clearing fields (2.316952ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:154:27)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:163:1
+✖ Correcting consent after an error prepares a draft and replaces the error state (1.66447ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:165:8)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:195:1
+✖ Revoking consent after a successful draft blocks the next attempt and clears success state (1.413655ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:197:8)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/contact-form.test.cjs:210:1
+✖ A later draft uses edited fields, while an intervening invalid attempt cannot create a draft (1.309561ms)
+  AssertionError [ERR_ASSERTION]: Every submission must call preventDefault
+  
+  false !== true
+  
+      at Object.submit (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:80:14)
+      at TestContext.<anonymous> (/tmp/murrif-verifier-x6sxNX/tests/contact-form.test.cjs:212:8)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
