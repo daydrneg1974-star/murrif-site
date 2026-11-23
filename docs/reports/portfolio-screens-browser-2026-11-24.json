@@ -1,0 +1,203 @@
+{
+  "shotsWideObservation": [
+    {
+      "images": [
+        {
+          "complete": true,
+          "decoding": "async",
+          "loading": "lazy",
+          "naturalHeight": 722,
+          "naturalWidth": 1521,
+          "rect": {
+            "bottom": 688.0500183105469,
+            "height": 268.20001220703125,
+            "left": 211.1999969482422,
+            "right": 747.6000213623047,
+            "top": 419.8500061035156,
+            "width": 536.4000244140625,
+            "x": 211.1999969482422,
+            "y": 419.8500061035156
+          },
+          "src": "portfolio-stroy.jpg"
+        },
+        {
+          "complete": true,
+          "decoding": "async",
+          "loading": "lazy",
+          "naturalHeight": 674,
+          "naturalWidth": 1536,
+          "rect": {
+            "bottom": 688.0500183105469,
+            "height": 268.20001220703125,
+            "left": 773.2000122070312,
+            "right": 1309.6000366210938,
+            "top": 419.8500061035156,
+            "width": 536.4000244140625,
+            "x": 773.2000122070312,
+            "y": 419.8500061035156
+          },
+          "src": "portfolio-zski.jpg"
+        }
+      ],
+      "label": "preview-desktop",
+      "scrollWidth": 1521,
+      "width": 1521
+    }
+  ],
+  "shotsPreviewMobileObservation": [
+    {
+      "images": [
+        {
+          "complete": true,
+          "rect": {
+            "bottom": 576.7624969482422,
+            "height": 139.1999969482422,
+            "left": 20.80000114440918,
+            "right": 299.19999504089355,
+            "top": 437.5625,
+            "width": 278.3999938964844,
+            "x": 20.80000114440918,
+            "y": 437.5625
+          },
+          "width": 1521
+        },
+        {
+          "complete": true,
+          "rect": {
+            "bottom": 1442.7624969482422,
+            "height": 139.1999969482422,
+            "left": 20.80000114440918,
+            "right": 299.19999504089355,
+            "top": 1303.5625,
+            "width": 278.3999938964844,
+            "x": 20.80000114440918,
+            "y": 1303.5625
+          },
+          "width": 1536
+        }
+      ],
+      "label": "preview-320",
+      "menu": "false",
+      "scrollWidth": 320,
+      "width": 320
+    }
+  ],
+  "shotsInitialLive": [
+    {
+      "externalScripts": 0,
+      "iframeCount": 0,
+      "images": [
+        {
+          "complete": true,
+          "heightAttribute": "722",
+          "loading": "lazy",
+          "widthAttribute": "1521"
+        },
+        {
+          "complete": true,
+          "heightAttribute": "674",
+          "loading": "lazy",
+          "widthAttribute": "1536"
+        }
+      ],
+      "label": "live-initial",
+      "scrollWidth": 1521,
+      "width": 1521
+    },
+    "Шаг 1 из 3\n\nКакая главная задача стоит перед сайтом прямо сейчас?\nА\nНужно солидное присутствие в сети: контакты, инфо о компании, ссылка для визитки и мессенджеров\nБ\nЗапустить рекламу на конкретный товар/услугу и собирать поток заявок\nВ\nАвтоматизировать рутину: расчёт стоимости, личный кабинет, учёт заказов или онлайн-запись"
+  ],
+  "shotsLiveFlow": [
+    "Веб-приложение",
+    "Веб-приложение",
+    "Пожалуйста, укажите имя и способ связи.",
+    {
+      "active": "name",
+      "query": ""
+    },
+    "Шаг 1 из 3",
+    []
+  ],
+  "shotsLiveMobileObservation": [
+    {
+      "hash": "#works",
+      "images": [
+        {
+          "complete": true,
+          "naturalWidth": 1521,
+          "rect": {
+            "bottom": 576.7624969482422,
+            "height": 139.1999969482422,
+            "left": 20.80000114440918,
+            "right": 299.19999504089355,
+            "top": 437.5625,
+            "width": 278.3999938964844,
+            "x": 20.80000114440918,
+            "y": 437.5625
+          },
+          "src": "portfolio-stroy.jpg"
+        },
+        {
+          "complete": true,
+          "naturalWidth": 1536,
+          "rect": {
+            "bottom": 1442.7624969482422,
+            "height": 139.1999969482422,
+            "left": 20.80000114440918,
+            "right": 299.19999504089355,
+            "top": 1303.5625,
+            "width": 278.3999938964844,
+            "x": 20.80000114440918,
+            "y": 1303.5625
+          },
+          "src": "portfolio-zski.jpg"
+        }
+      ],
+      "label": "published-320",
+      "menuExpanded": "false",
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "focused": "burger",
+      "menuExpanded": "false"
+    }
+  ],
+  "shotsFinalScreenshot": [
+    {
+      "headingTop": 81.80000305175781,
+      "images": [
+        {
+          "complete": true,
+          "naturalWidth": 1521,
+          "rect": {
+            "bottom": 528.0500183105469,
+            "height": 268.20001220703125,
+            "left": 211.1999969482422,
+            "right": 747.6000213623047,
+            "top": 259.8500061035156,
+            "width": 536.4000244140625,
+            "x": 211.1999969482422,
+            "y": 259.8500061035156
+          }
+        },
+        {
+          "complete": true,
+          "naturalWidth": 1536,
+          "rect": {
+            "bottom": 528.0500183105469,
+            "height": 268.20001220703125,
+            "left": 773.2000122070312,
+            "right": 1309.6000366210938,
+            "top": 259.8500061035156,
+            "width": 536.4000244140625,
+            "x": 773.2000122070312,
+            "y": 259.8500061035156
+          }
+        }
+      ],
+      "label": "published-desktop",
+      "scrollWidth": 1521,
+      "width": 1521
+    }
+  ]
+}

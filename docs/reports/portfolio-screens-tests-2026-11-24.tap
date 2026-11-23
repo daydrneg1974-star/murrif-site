@@ -1,0 +1,43 @@
+✔ Empty form: cancel submission, preserve fields and focus the missing value (6.106894ms)
+✔ Missing name: cancel submission, preserve fields and focus the missing value (1.856147ms)
+✔ Missing contact: cancel submission, preserve fields and focus the missing value (1.696126ms)
+✔ Whitespace-only name: cancel submission, preserve fields and focus the missing value (1.697188ms)
+✔ Whitespace-only contact: cancel submission, preserve fields and focus the missing value (1.744088ms)
+✔ Missing consent cancels submission without navigation and focuses consent (1.986453ms)
+✔ Valid submission cancels the default, encodes the draft and preserves all five fields (2.164432ms)
+✔ Optional empty message is represented by a dash (1.874435ms)
+✔ Optional whitespace-only message is represented by a dash (2.037882ms)
+✔ Repeated submission cancels each event and prepares the same draft without clearing fields (3.067133ms)
+✔ Correcting consent after an error prepares a draft and replaces the error state (1.965902ms)
+✔ Configured recipient agrees with the public email contact (1.53266ms)
+✔ Without JavaScript the submit button starts disabled and fallback contacts are explained (0.419582ms)
+✔ Successful script initialization enables the submit button (1.376604ms)
+✔ Revoking consent after a successful draft blocks the next attempt and clears success state (1.271986ms)
+✔ A later draft uses edited fields, while an intervening invalid attempt cannot create a draft (1.342363ms)
+✔ index.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (7.464099ms)
+ℹ 43 color/surface pairs; minimum 4.5446:1
+✔ privacy.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (1.500842ms)
+ℹ 20 color/surface pairs; minimum 4.8660:1
+✔ consent.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (2.164062ms)
+ℹ 20 color/surface pairs; minimum 4.8660:1
+✔ index.html: secondary header text stays legible over a light underlay (4.347061ms)
+✔ privacy.html: secondary header text stays legible over a light underlay (1.230624ms)
+✔ consent.html: secondary header text stays legible over a light underlay (1.128ms)
+✔ Escape from an open menu closes it and returns focus to the toggle (2.779598ms)
+✔ Escape outside the closed menu does not move focus (1.25422ms)
+✔ Escape outside the open menu does not move focus (1.43314ms)
+✔ Other keys do not close the menu or move focus (1.177235ms)
+✔ Following a menu link closes the menu without cancelling anchor navigation (1.134781ms)
+✔ Quiz reaches Сайт-визитка and transfers it to the form (3.949521ms)
+✔ Quiz reaches Лендинг and transfers it to the form (1.534633ms)
+✔ Quiz reaches Веб-приложение and transfers it to the form (1.348582ms)
+✔ Rapid repeated answers do not skip a question (1.598549ms)
+✔ Back during the answer delay stays on the previous question and remains usable (1.767374ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 201.097845

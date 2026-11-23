@@ -1,0 +1,149 @@
+{
+  "checked_at_utc": "2026-11-23T18:47:05.481593+00:00",
+  "requests": [
+    {
+      "file": "index.html",
+      "url": "https://murrif.ru/",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 88034,
+      "sha256": "ffd60d07fda4ddcd61ac3e9842e0d5c3130cf6fbcbe919023bfaee158a1dcfb1",
+      "matches_source": true
+    },
+    {
+      "file": "privacy.html",
+      "url": "https://murrif.ru/privacy.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 17270,
+      "sha256": "eed1e0d2d0dab7a257f85f5fdd6583f2b0aac59eb5cfc5215ca8118fa57ae766",
+      "matches_source": true
+    },
+    {
+      "file": "consent.html",
+      "url": "https://murrif.ru/consent.html",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 15254,
+      "sha256": "45b426682914e9869e172b3b8e552e582eb47fcb0035e28c71f24cae2d0069ce",
+      "matches_source": true
+    },
+    {
+      "file": "robots.txt",
+      "url": "https://murrif.ru/robots.txt",
+      "status": 200,
+      "content_type": "text/plain",
+      "bytes": 62,
+      "sha256": "5c42ac417caa65c8250ae1abc561434498e3b4c1d705847147e8fac6645e2643",
+      "matches_source": true
+    },
+    {
+      "file": "sitemap.xml",
+      "url": "https://murrif.ru/sitemap.xml",
+      "status": 200,
+      "content_type": "text/xml",
+      "bytes": 286,
+      "sha256": "5576181aa843dec06a242e1254ed0249dbe0514d9ec403f4d92dbc7a716fa469",
+      "matches_source": true
+    },
+    {
+      "file": "photo-fade.webp",
+      "url": "https://murrif.ru/photo-fade.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 43818,
+      "sha256": "334aba0f9a43bdba0fdef6fff31bc6b8a887a19e37067a83e6e390a2ea909c52",
+      "matches_source": true
+    },
+    {
+      "file": "photo-square.webp",
+      "url": "https://murrif.ru/photo-square.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 23278,
+      "sha256": "a9e5c18ed5ff4b1adc6022d78b6cb3df0c810afbe2cae7ea2de9e5d20f4bf5a3",
+      "matches_source": true
+    },
+    {
+      "file": "og-image.jpg",
+      "url": "https://murrif.ru/og-image.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 75932,
+      "sha256": "7accc66889a3880b67fa807eb0488f550c15d97592bebc94c093abf414c89cb7",
+      "matches_source": true
+    },
+    {
+      "file": "portfolio-stroy.jpg",
+      "url": "https://murrif.ru/portfolio-stroy.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 102998,
+      "sha256": "3545144a531c58d3b7a8063fd591631c8cb656eaea34452bc0d8f3551c8be64f",
+      "matches_source": true
+    },
+    {
+      "file": "portfolio-zski.jpg",
+      "url": "https://murrif.ru/portfolio-zski.jpg",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 104881,
+      "sha256": "92dc29c43ec862659d04c1047a33ae1fc79417a30a48944c0a19b97fa1e85aac",
+      "matches_source": true
+    },
+    {
+      "file": "fonts/OFL-JetBrainsMono.txt",
+      "url": "https://murrif.ru/fonts/OFL-JetBrainsMono.txt",
+      "status": 200,
+      "content_type": "text/plain",
+      "bytes": 4399,
+      "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d",
+      "matches_source": true
+    },
+    {
+      "file": "fonts/OFL-Onest.txt",
+      "url": "https://murrif.ru/fonts/OFL-Onest.txt",
+      "status": 200,
+      "content_type": "text/plain",
+      "bytes": 4384,
+      "sha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc",
+      "matches_source": true
+    },
+    {
+      "file": "fonts/jetbrains-mono-cyrillic.woff2",
+      "url": "https://murrif.ru/fonts/jetbrains-mono-cyrillic.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "bytes": 8872,
+      "sha256": "e17cfd15fb96909d64095015f958207063a0c07191da3512df7d560a781aebdf",
+      "matches_source": true
+    },
+    {
+      "file": "fonts/jetbrains-mono-latin.woff2",
+      "url": "https://murrif.ru/fonts/jetbrains-mono-latin.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "bytes": 31432,
+      "sha256": "83c005d49d8a6a50474c73a5a36ac0468076e9c4a29da7bdb14995d80560a5be",
+      "matches_source": true
+    },
+    {
+      "file": "fonts/onest-cyrillic.woff2",
+      "url": "https://murrif.ru/fonts/onest-cyrillic.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "bytes": 15860,
+      "sha256": "68e5e01d6265bd68967746d4f5a9d18d0e6cbb5d15583c7082d6384ab1229b27",
+      "matches_source": true
+    },
+    {
+      "file": "fonts/onest-latin.woff2",
+      "url": "https://murrif.ru/fonts/onest-latin.woff2",
+      "status": 200,
+      "content_type": "font/woff2",
+      "bytes": 33760,
+      "sha256": "052df74533250c2e0ca0c4bdd32de594e107d99c1648e63820ef9c6142067828",
+      "matches_source": true
+    }
+  ]
+}
