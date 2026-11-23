@@ -1,0 +1,382 @@
+[
+  {
+    "site": "https://stroyinzh-dom.ru/",
+    "html_sha256": "e0c18df2a417ac9506a17fd81cf60dda000893533147ccb4660de904b1dda903",
+    "duplicate_ids": [],
+    "missing_local_anchors": [],
+    "resources": [
+      {
+        "url": "https://stroyinzh-dom.ru/assets/dzit-colours-360.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/dzit-colours.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/dzit-playground-360.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/dzit-playground.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/dzit-sport-360.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/dzit-sport.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/favicon.svg",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-1-480.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-1-960.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-1.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-2-480.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-2-960.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-2.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-3-480.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-3-960.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-3.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-4-480.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-4-960.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/image-4.webp",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/assets/promo.mp4",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/site.js?v=e18d983ad61b41ce9194007934711c1edf5ab0bb6f53178b6ab65633630dae6c",
+        "status": 200
+      },
+      {
+        "url": "https://stroyinzh-dom.ru/privacy.html",
+        "status": 200
+      }
+    ],
+    "scripts": [
+      {
+        "script": "site.js?v=e18d983ad61b41ce9194007934711c1edf5ab0bb6f53178b6ab65633630dae6c",
+        "syntax_ok": true,
+        "error": ""
+      }
+    ]
+  },
+  {
+    "site": "http://zski.ru.swtest.ru/",
+    "html_sha256": "d1c740e270c4fa45cdccd2744eb6e1c14bd87e0f60de70e5d42ef510fd18a48f",
+    "duplicate_ids": [],
+    "missing_local_anchors": [],
+    "resources": [
+      {
+        "url": "http://zski.ru.swtest.ru/fonts/manrope-500-cyrillic.woff2",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/fonts/unbounded-800-cyrillic.woff2",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/apple-touch-icon.png",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/favicon-64.png",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/logo-240.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/logo.png",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/boots-shelf.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/boots-shelf.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/counter.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/counter.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/fitting-boots.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/fitting-boots.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/helmet-skis.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/helmet-skis.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/helmets.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/helmets.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/hero-freeride.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/hero-freeride.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/intro-poster-portrait.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/intro-poster.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/route-yakhroma.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/service-machine.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/service-machine.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/shop-exterior.jpg?v=202611231712",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/shop-exterior.webp?v=202611231712",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/ski-racks-2.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/ski-racks-2.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/ski-racks.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/ski-racks.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/snowboards.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/snowboards.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/technician-2.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/technician-2.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/technician.jpg",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/img/photos/technician.webp",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/js/intro.js?v=202611231712",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/js/site.js?v=202611231712",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/video/descent-540.mp4?v=202611231712",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/video/descent-540.webm?v=202611231712",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/video/portrait/descent-540.mp4?v=202611231712",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/video/portrait/descent-540.webm?v=202611231712",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/clients.html",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/contacts.html",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/index.html",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/intro.html",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/prices.html",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/service.html",
+        "status": 200
+      },
+      {
+        "url": "http://zski.ru.swtest.ru/slopes.html",
+        "status": 200
+      }
+    ],
+    "scripts": [
+      {
+        "script": 0,
+        "type": "speculationrules",
+        "valid_json": true
+      },
+      {
+        "script": 1,
+        "type": "application/ld+json",
+        "valid_json": true
+      },
+      {
+        "script": "inline-2",
+        "syntax_ok": true,
+        "error": ""
+      },
+      {
+        "script": "inline-3",
+        "syntax_ok": true,
+        "error": ""
+      },
+      {
+        "script": "js/intro.js?v=202611231712",
+        "syntax_ok": true,
+        "error": ""
+      },
+      {
+        "script": "js/site.js?v=202611231712",
+        "syntax_ok": true,
+        "error": ""
+      },
+      {
+        "script": "inline-6",
+        "syntax_ok": true,
+        "error": ""
+      }
+    ]
+  },
+  {
+    "site": "https://murrif.ru/",
+    "html_sha256": "ba5cba665d917d338c8fdae4a0bff1af16f7b0d3b7603bae28f918e8102a7682",
+    "duplicate_ids": [],
+    "missing_local_anchors": [],
+    "resources": [
+      {
+        "url": "https://murrif.ru/fonts/onest-cyrillic.woff2",
+        "status": 200
+      },
+      {
+        "url": "https://murrif.ru/photo-fade.webp",
+        "status": 200
+      },
+      {
+        "url": "https://murrif.ru/photo-square.webp",
+        "status": 200
+      },
+      {
+        "url": "https://murrif.ru/consent.html",
+        "status": 200
+      },
+      {
+        "url": "https://murrif.ru/privacy.html",
+        "status": 200
+      }
+    ],
+    "scripts": [
+      {
+        "script": "inline-0",
+        "syntax_ok": true,
+        "error": ""
+      },
+      {
+        "script": "inline-1",
+        "syntax_ok": true,
+        "error": ""
+      }
+    ]
+  }
+]
