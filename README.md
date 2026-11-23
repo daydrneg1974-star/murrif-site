@@ -9,6 +9,7 @@
 - `index.html`, `privacy.html`, `consent.html`;
 - `robots.txt`, `sitemap.xml`;
 - `photo-fade.webp`, `photo-square.webp`, `og-image.jpg`;
+- `portfolio-stroy.jpg`, `portfolio-zski.jpg` — снимки первых экранов проектов;
 - папку `fonts/` вместе с файлами лицензий.
 
 Для SpaceWeb также нужен `.htaccess` из репозитория: он перенаправляет HTTP на HTTPS. Размещать его следует после установки действующего сертификата для домена.

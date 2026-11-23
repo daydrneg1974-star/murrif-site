@@ -521,6 +521,9 @@
     /* ===== Работы ===== */
     .works__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
     .work { display: flex; flex-direction: column; min-width: 0; padding: 32px; }
+    .work__preview { display: block; flex: none; margin: -32px -32px 28px; overflow: hidden; border-radius: var(--radius) var(--radius) 0 0; border-bottom: 1px solid var(--line-strong); background: var(--bg); }
+    .work__preview img { display: block; width: 100%; height: auto; aspect-ratio: 2 / 1; object-fit: cover; object-position: top; }
+    .work__preview:focus-visible { outline-offset: -4px; }
     .work__meta { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin-bottom: 28px; }
     .work__category { color: var(--accent-2); font-size: 14px; font-weight: 500; }
     .work__status { color: var(--ink-muted); font-size: 13px; padding-left: 16px; border-left: 1px solid var(--line-strong); }
@@ -541,6 +544,7 @@
     @media (max-width: 760px) {
       .works__grid { grid-template-columns: 1fr; gap: 20px; }
       .work { padding: 26px 22px; }
+      .work__preview { margin: -26px -22px 24px; }
       .work__meta { margin-bottom: 22px; }
       .work__footer { align-items: flex-start; flex-direction: column; }
     }
@@ -807,6 +811,9 @@
         </div>
         <div class="works__grid">
           <article class="glass work reveal" aria-labelledby="work-stroy-title">
+            <a class="work__preview" href="https://stroyinzh-dom.ru/" target="_blank" rel="noopener noreferrer" aria-label="Открыть СтройИнжиниринг — в новой вкладке">
+              <img src="portfolio-stroy.jpg" width="1521" height="722" loading="lazy" decoding="async" alt="Стартовый экран СтройИнжиниринга: строительство домов под ключ и загородный дом">
+            </a>
             <div class="work__meta">
               <span class="work__category">Строительство и благоустройство</span>
               <span class="work__status">Демопроект</span>
@@ -824,6 +831,9 @@
             </div>
           </article>
           <article class="glass work reveal" aria-labelledby="work-zski-title">
+            <a class="work__preview" href="http://zski.ru.swtest.ru/" target="_blank" rel="noopener noreferrer" aria-label="Открыть ZSKI — в новой вкладке">
+              <img src="portfolio-zski.jpg" width="1536" height="674" loading="lazy" decoding="async" alt="Стартовый экран ZSKI: заснеженные горы, лыжи и приглашение перейти к прокату">
+            </a>
             <div class="work__meta">
               <span class="work__category">Прокат и сервис</span>
               <span class="work__status">Версия для просмотра</span>
@@ -1298,6 +1308,7 @@
       var answers = [];
       var current = 0;
       var busy = false;
+      var transitionTimer;
       var highlightTimer;
 
       function getFormat(list) {
@@ -1353,7 +1364,7 @@
         answers.length = current + 1;
         opt.classList.add('is-selected');
         opt.setAttribute('aria-pressed', 'true');
-        setTimeout(function () {
+        transitionTimer = setTimeout(function () {
           busy = false;
           if (current < quizSteps.length - 1) showStep(current + 1, true);
           else showResult();
@@ -1361,6 +1372,8 @@
       });
 
       quizBack.addEventListener('click', function () {
+        clearTimeout(transitionTimer);
+        busy = false;
         if (current > 0) showStep(current - 1, true);
       });
 
