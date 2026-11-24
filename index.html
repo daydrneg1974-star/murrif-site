@@ -22,7 +22,8 @@
 
   <link rel="preload" href="fonts/onest-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 
-  <link rel="stylesheet" href="css/style.css?v=20261124-1">
+  <link rel="stylesheet" href="css/style.css?v=20261124-2">
+  <script src="js/contact.js?v=20261124-1" defer></script>
 </head>
 
 <body class="no-js">
@@ -75,7 +76,7 @@
 
             <p class="hero__subtitle">
               Делаю сайты-визитки, лендинги и простые веб-приложения для малого бизнеса, экспертов и производителей.
-              Быстро, понятно и без лишней бюрократии — с фокусом на заявки и продажи.
+              Использую ИИ в разработке, а структуру и функции подбираю под вашу задачу — с опорой на опыт в продажах.
             </p>
 
             <div class="hero__actions">
@@ -116,11 +117,11 @@
             </li>
             <li>
               <span class="check-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>
-              <span><strong>Каждый блок ведёт к заявке</strong>Структура строится как воронка продаж, а не как набор красивых картинок.</span>
+              <span><strong>Понятный путь к обращению</strong>Помогаю посетителю разобраться в предложении и выбрать удобный способ связи.</span>
             </li>
             <li>
               <span class="check-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>
-              <span><strong>Прямой контакт без посредников</strong>Общаетесь напрямую с исполнителем, понятные этапы и сроки.</span>
+              <span><strong>Только нужные функции</strong>Выбираем то, что помогает решить задачу, и не усложняем сайт без причины.</span>
             </li>
           </ul>
         </aside>
@@ -256,7 +257,7 @@
         <div class="section-head section-head--center reveal">
           <span class="eyebrow">Подбор формата</span>
           <h2 class="section-title grad-title">Не знаете, что выбрать? Ответьте на 3 вопроса</h2>
-          <p class="section-lead">Меньше минуты — и вы поймёте, какой формат решит вашу задачу без лишних затрат.</p>
+          <p class="section-lead">Три ответа помогут наметить подходящий формат. Окончательный выбор обсудим вместе.</p>
         </div>
 
         <div class="quiz__card glass reveal" id="quizCard">
@@ -327,7 +328,7 @@
 
           <!-- Результат -->
           <div class="quiz__panel quiz__result" id="quizResult" hidden>
-            <p class="quiz__label">Вам идеально подойдёт:</p>
+            <p class="quiz__label">Можно начать с этого формата:</p>
             <h3 class="quiz__format grad-accent" id="quizFormat" tabindex="-1">Сайт-визитка</h3>
             <p class="quiz__text" id="quizText"></p>
             <div class="quiz__actions">
@@ -445,7 +446,7 @@
           <li class="step glass glass--hover reveal">
             <span class="step__num" aria-hidden="true">05</span>
             <h3>Тестирование и запуск</h3>
-            <p>Проверяю на компьютерах и смартфонах, подключаю формы и аналитику. Запускаю сайт на вашем домене или переношу на ваш хостинг.</p>
+            <p>Проверяю отображение и основные сценарии на компьютере и телефоне, настраиваю согласованные формы. Запускаю сайт на вашем домене или переношу на ваш хостинг.</p>
             <span class="step__spacer" aria-hidden="true"></span>
             <p class="step__result">На выходе: <b>проект в работе</b></p>
           </li>
@@ -524,51 +525,55 @@
           <p class="contacts__hint">Первая консультация — чтобы понять задачу и предложить подходящий формат.</p>
         </div>
 
-        <!-- Форма обратной связи.
-             Сейчас без сервера: по нажатию открывается почтовый клиент с заполненным письмом.
-             Для реальной отправки замените обработчик в скрипте внизу (Formspree, Telegram-бот, свой backend и т.п.). -->
-        <form class="form reveal" id="contactForm" novalidate>
+        <form class="form reveal" id="contactForm" action="api/contact.php" method="post">
           <h3 class="form__title">Оставить заявку</h3>
           <p class="form__subtitle">Пара строк о задаче — этого достаточно, чтобы начать.</p>
 
           <div class="form__row">
             <div class="field">
               <label for="name">Как к вам обращаться *</label>
-              <input id="name" name="name" type="text" autocomplete="name" placeholder="Имя" required>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Имя" maxlength="80" aria-describedby="name-error" required>
+              <p class="field__error" id="name-error" hidden></p>
             </div>
             <div class="field">
               <label for="contact">Телефон, Telegram или email *</label>
-              <input id="contact" name="contact" type="text" autocomplete="tel" placeholder="+7 (999) 000-00-00" required>
+              <input id="contact" name="contact" type="text" autocomplete="off" placeholder="Телефон, @username или email" maxlength="160" aria-describedby="contact-hint contact-error" required>
+              <p class="field__error" id="contact-error" hidden></p>
+              <p class="field__hint" id="contact-hint">Достаточно одного способа связи.</p>
             </div>
           </div>
 
           <div class="field">
             <label for="service">Что нужно</label>
-            <select id="service" name="service">
+            <select id="service" name="service" aria-describedby="service-error">
               <option value="Пока не знаю, нужна консультация">Нужна консультация</option>
               <option value="Сайт-визитка">Сайт-визитка</option>
               <option value="Лендинг">Лендинг</option>
               <option value="Веб-приложение">Веб-приложение</option>
             </select>
+            <p class="field__error" id="service-error" hidden></p>
           </div>
 
           <div class="field">
             <label for="message">Коротко о задаче</label>
-            <textarea id="message" name="message" placeholder="Чем занимается бизнес, кто ваши клиенты и какой результат хотите получить"></textarea>
+            <textarea id="message" name="message" maxlength="4000" aria-describedby="message-hint message-error" placeholder="Чем занимается бизнес, кто ваши клиенты и какой результат хотите получить"></textarea>
+            <p class="field__hint" id="message-hint">До 4000 символов. Не указывайте пароли и другие секреты.</p>
+            <p class="field__error" id="message-error" hidden></p>
           </div>
 
           <label class="consent">
-            <input type="checkbox" id="consent" name="consent" required>
+            <input type="checkbox" id="consent" name="consent" aria-describedby="consent-error" required>
             <span>Даю <a href="consent.html" target="_blank" rel="noopener">согласие на обработку персональных данных</a></span>
           </label>
 
-          <button class="btn btn--light form__submit" type="submit" disabled>
-            Отправить заявку
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </button>
+          <p class="field__error" id="consent-error" hidden></p>
+          <input type="hidden" name="request_id" value="">
+          <input type="hidden" name="quiz" id="quizValue" value="">
+          <div hidden aria-hidden="true"><label>Сайт<input name="website" tabindex="-1" autocomplete="off"></label></div>
 
-          <p class="form__note">Кнопка откроет почтовое приложение с письмом. Отправьте его, чтобы заявка дошла.</p>
-          <noscript><p class="form__note">Для заявки напишите в Telegram, WhatsApp или по email — контакты выше.</p></noscript>
+          <button class="btn btn--light form__submit" type="submit">Отправить сообщение</button>
+          <p class="form__note">Сообщение отправляется через сайт. Почтовое приложение не понадобится.</p>
+          <noscript><p class="form__note">После отправки откроется страница с результатом.</p></noscript>
           <p class="form__note">Подробнее — в <a href="privacy.html" target="_blank" rel="noopener">Политике обработки персональных данных</a></p>
 
           <div class="form__status" id="formStatus" role="status" aria-live="polite"></div>
@@ -641,46 +646,7 @@
         items.forEach(function (el) { el.classList.add('is-visible'); });
       }
 
-      // --- Форма обратной связи (заглушка через почтовый клиент) ---
       var form = document.getElementById('contactForm');
-      var statusBox = document.getElementById('formStatus');
-      var EMAIL = 'daydrneg1974@gmail.com';
-
-      function showStatus(text, ok) {
-        statusBox.textContent = text;
-        statusBox.className = 'form__status is-visible ' + (ok ? 'form__status--ok' : 'form__status--error');
-      }
-
-      form.addEventListener('submit', function (e) {
-        e.preventDefault();
-        var f = form.elements;
-        var name = f.name.value.trim();
-        var contact = f.contact.value.trim();
-
-        if (!name || !contact) {
-          showStatus('Пожалуйста, укажите имя и способ связи.', false);
-          (!name ? f.name : f.contact).focus();
-          return;
-        }
-        if (!f.consent.checked) {
-          showStatus('Отметьте согласие на обработку данных, чтобы отправить заявку.', false);
-          f.consent.focus();
-          return;
-        }
-
-        var body =
-          'Имя: ' + name + '\n' +
-          'Контакт: ' + contact + '\n' +
-          'Услуга: ' + f.service.value + '\n\n' +
-          'Задача:\n' + (f.message.value.trim() || '—');
-
-        window.location.href = 'mailto:' + EMAIL +
-          '?subject=' + encodeURIComponent('Заявка с сайта: ' + f.service.value) +
-          '&body=' + encodeURIComponent(body);
-
-        showStatus('Спасибо! Сейчас откроется почтовый клиент с готовым письмом. Если не открылся — напишите в Telegram или WhatsApp.', true);
-      });
-      form.querySelector('button[type="submit"]').disabled = false;
 
       // --- Квиз: подбор формата ---
       var quiz = document.getElementById('quizCard');
@@ -696,9 +662,9 @@
       var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
       var RESULTS = {
-        'Сайт-визитка': 'Солидное представительство без лишних затрат: всё, что нужно клиенту, чтобы проверить вас и связаться. Быстрый запуск и минимальный бюджет.',
-        'Лендинг': 'Одна страница, выстроенная как продающая презентация: каждый блок ведёт к заявке. Рекламный бюджет работает на конверсию, а не уходит в никуда.',
-        'Веб-приложение': 'Инструмент, который снимает с вас рутину: расчёты, записи и заказы идут автоматически. Экономит часы работы каждую неделю и убирает ошибки.'
+        'Сайт-визитка': 'Компактная страница о вас, услугах и опыте. Подходит, когда посетителю нужно познакомиться с предложением и найти контакты.',
+        'Лендинг': 'Страница под конкретный продукт или услугу: предложение, ответы на вопросы и форма обращения. Подходит для отдельной рекламной кампании.',
+        'Веб-приложение': 'Инструмент для конкретного процесса: расчёта, записи или учёта. Состав функций определим по тому, как вы и ваши клиенты будете им пользоваться.'
       };
 
       var answers = [];
@@ -774,6 +740,8 @@
       });
 
       document.getElementById('quizRestart').addEventListener('click', function () {
+        clearTimeout(transitionTimer);
+        busy = false;
         answers = [];
         showStep(0, true);
       });
@@ -781,6 +749,7 @@
       document.getElementById('quizCta').addEventListener('click', function (e) {
         e.preventDefault();
         serviceSelect.value = quizResult.dataset.format;
+        document.getElementById('quizValue').value = quizResult.dataset.format;
         serviceSelect.dispatchEvent(new Event('change', { bubbles: true }));
 
         form.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });

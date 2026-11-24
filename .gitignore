@@ -15,3 +15,14 @@ CLAUDE.md
 !/docs/tasks/artifacts/**/*.xml
 !/docs/tasks/artifacts/**/*.yml
 !/docs/tasks/artifacts/**/*.yaml
+
+# Private contact configuration, dependencies and runtime data.
+/server/config.php
+/server/vendor/
+/server/var/
+/private/
+/dist/
+.env
+.env.*
+!.env.example
+*.log

@@ -1,0 +1,66 @@
+PASS valid Unicode request accepted by fake transport
+PASS same key retry does not resend
+PASS same payload new key does not resend
+PASS idempotency key bound to payload
+PASS reject invalid name
+PASS reject invalid contact
+PASS reject invalid service
+PASS reject invalid consent
+PASS reject invalid message
+PASS reject invalid website
+PASS reject invalid quiz
+PASS reject array name
+PASS reject array contact
+PASS reject array message
+PASS reject array service
+PASS reject array consent
+PASS reject array quiz
+PASS reject array website
+PASS reject array request_id
+PASS length / whitespace name
+PASS length / whitespace contact
+PASS length / whitespace name-space
+PASS header injection rejected
+PASS recipient substitution rejected
+PASS phone / messenger needs no email @test_user
+PASS phone / messenger needs no email +7 (999) 123-45-67
+PASS phone / messenger needs no email https://t.me/test_user
+PASS fifth unique message accepted
+PASS IP rate limit persisted
+PASS untrusted forwarding header cannot bypass rate limit
+PASS method
+PASS content type
+PASS declared size
+PASS actual size
+PASS invalid JSON
+PASS nonobject JSON
+PASS invalid UTF8
+PASS foreign origin
+PASS null origin
+PASS fetch metadata
+PASS disabled config
+PASS missing config
+PASS SMTP exception is not success
+PASS uncertain delivery never automatically resent
+PASS transport timeout
+PASS concurrent replay sees durable pending reservation
+PASS no sensitive data in state/log test@example.invalid
+PASS no sensitive data in state/log Тест
+PASS no sensitive data in state/log 192.0.2.
+PASS no sensitive data in state/log test-only
+PASS no sensitive data in state/log 123456
+PASS HTML response escapes values and preserves text
+PASS signed receipt
+PASS forged receipt rejected
+PASS native no-JS form encoding
+PASS duplicate fields rejected
+PASS SMTP fixed sender and recipient
+PASS validated email used for Reply-To
+PASS no Reply-To for messenger
+PASS TLS certificate checks enabled
+PASS SMTP diagnostics disabled and bounded operation timeouts
+PASS PHPMailer builds plain UTF8 MIME message without network
+PASS no unrequested Bcc header
+PASS quiz recommendation reaches mail body
+PASS expired records cleaned and legitimate new request accepted
+TOTAL 65 PASS

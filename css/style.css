@@ -64,8 +64,6 @@
       background: var(--bg);
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      overflow-x: hidden;
-      overflow-x: clip;
     }
 
     img, svg { display: block; max-width: 100%; }
@@ -559,6 +557,7 @@
         transform: translateY(-6px); opacity: 0; visibility: hidden;
         transition: transform .25s ease, opacity .25s ease, visibility .25s;
       }
+      .nav { max-height: calc(100dvh - var(--header-h) - 24px); overflow-y: auto; overscroll-behavior: contain; }
       .nav.is-open { transform: none; opacity: 1; visibility: visible; }
       .nav__list { flex-direction: column; align-items: stretch; gap: 2px; }
       .nav__link { min-height: 48px; padding: 0 14px; font-size: 16px; color: #ffffff; }
@@ -601,3 +600,15 @@
       *, *::before, *::after { transition: none !important; animation: none !important; }
       .reveal { opacity: 1; transform: none; }
     }
+
+/* Contact form states and server-rendered response. */
+.field__hint { font-size: .875rem; color: var(--ink-muted); }
+.field__error { font-size: .875rem; color: var(--danger-ink); margin-top: 4px; }
+.field [aria-invalid="true"] { border-color: var(--danger-ink); }
+.form__submit:disabled { opacity: .7; cursor: wait; }
+.form__status { overflow-wrap: anywhere; }
+.response { max-width: 760px; padding-top: 48px; padding-bottom: 48px; }
+.response > * + * { margin-top: 24px; }
+.response .field { margin-top: 18px; }
+.form, .contacts__grid > *, .hero__grid > *, .works__grid > * { min-width: 0; }
+.form { scroll-margin-top: calc(var(--header-h) + 20px); }
