@@ -1,0 +1,38 @@
+[
+  {
+    "name": "HTTP JSON accepted by fake transport",
+    "status": "PASS"
+  },
+  {
+    "name": "HTTP retry",
+    "status": "PASS"
+  },
+  {
+    "name": "HTTP validation",
+    "status": "PASS"
+  },
+  {
+    "name": "production entry point without enabled SMTP config",
+    "status": "PASS"
+  },
+  {
+    "name": "native form uses POST-redirect-GET and opaque receipt",
+    "status": "PASS"
+  },
+  {
+    "name": "receipt GET",
+    "status": "PASS"
+  },
+  {
+    "name": "no-JS invalid fields preserved and escaped",
+    "status": "PASS"
+  },
+  {
+    "name": "bare GET cannot claim success",
+    "status": "PASS"
+  },
+  {
+    "name": "CSS JS fonts return 200",
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "name": "murrif/contact",
+  "description": "Private SMTP contact handler for murrif.ru",
+  "type": "project",
+  "require": {"php": ">=8.2", "ext-openssl": "*", "ext-mbstring": "*", "phpmailer/phpmailer": "7.2.0"},
+  "config": {"sort-packages": true, "allow-plugins": false}
+}

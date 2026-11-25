@@ -1,0 +1,37 @@
+[
+  {
+    "path": "index.html",
+    "status": 200,
+    "bytes": 88034,
+    "sha256": "ffd60d07fda4ddcd61ac3e9842e0d5c3130cf6fbcbe919023bfaee158a1dcfb1",
+    "matches_previous_git_version": true
+  },
+  {
+    "path": "privacy.html",
+    "status": 200,
+    "bytes": 17270,
+    "sha256": "eed1e0d2d0dab7a257f85f5fdd6583f2b0aac59eb5cfc5215ca8118fa57ae766",
+    "matches_previous_git_version": true
+  },
+  {
+    "path": "consent.html",
+    "status": 200,
+    "bytes": 15254,
+    "sha256": "45b426682914e9869e172b3b8e552e582eb47fcb0035e28c71f24cae2d0069ce",
+    "matches_previous_git_version": true
+  },
+  {
+    "path": "robots.txt",
+    "status": 200,
+    "bytes": 62,
+    "sha256": "5c42ac417caa65c8250ae1abc561434498e3b4c1d705847147e8fac6645e2643",
+    "matches_previous_git_version": true
+  },
+  {
+    "path": "sitemap.xml",
+    "status": 200,
+    "bytes": 286,
+    "sha256": "5576181aa843dec06a242e1254ed0249dbe0514d9ec403f4d92dbc7a716fa469",
+    "matches_previous_git_version": true
+  }
+]

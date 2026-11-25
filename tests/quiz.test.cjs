@@ -25,7 +25,7 @@ function setup() {
     step.querySelector = () => element();
     return step;
   });
-  const ids = Object.fromEntries(['quizCard', 'quizCounter', 'quizBack', 'quizResult', 'quizFormat', 'quizText', 'service', 'quizRestart', 'quizCta'].map(id => [id, element()]));
+  const ids = Object.fromEntries(['quizCard', 'quizCounter', 'quizBack', 'quizResult', 'quizFormat', 'quizText', 'service', 'quizRestart', 'quizCta', 'quizValue'].map(id => [id, element()]));
   ids.quizCard.querySelectorAll = selector => selector === '.quiz__step' ? steps : [element(), element(), element()];
   ids.service.closest = () => element();
   ids.service.dispatchEvent = () => {};

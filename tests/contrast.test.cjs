@@ -25,7 +25,7 @@ function contrast(foreground, background) {
 }
 
 function measure(file) {
-  const html = fs.readFileSync(path.join(__dirname, '..', file), 'utf8');
+  const html = fs.readFileSync(path.join(__dirname, '..', file === 'index.html' ? 'css/style.css' : file), 'utf8');
   const variables = Object.fromEntries([...html.matchAll(/(--[\w-]+):\s*([^;]+);/g)].map(m => [m[1], m[2]]));
   const resolve = value => value.replace(/var\((--[\w-]+)\)/g, (_, name) => {
     assert(variables[name], `Missing ${name}`);
@@ -148,8 +148,8 @@ module.exports = { measure };
 // The previous page-background-only samples missed this observed state.
 for (const file of ['index.html', 'privacy.html', 'consent.html']) {
   test(`${file}: secondary header text stays legible over a light underlay`, () => {
-    const html = fs.readFileSync(path.join(__dirname, '..', file), 'utf8');
-    const css = html.match(/<style>([\s\S]*?)<\/style>/)[1].replace(/\/\*[\s\S]*?\*\//g, '');
+    const html = fs.readFileSync(path.join(__dirname, '..', file === 'index.html' ? 'css/style.css' : file), 'utf8');
+    const css = (file === 'index.html' ? html : html.match(/<style>([\s\S]*?)<\/style>/)[1]).replace(/\/\*[\s\S]*?\*\//g, '');
     const variables = Object.fromEntries([...css.matchAll(/(--[\w-]+):\s*([^;]+);/g)].map(m => [m[1], m[2]]));
     const rules = [...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)];
     const property = (selector, name) => {

@@ -1,0 +1,95 @@
+{
+  "method": "Chromium, same-origin iframe viewport via local QA harness; vertical scrollbar reduces clientWidth by 15px",
+  "widths": [
+    {
+      "viewport": 320,
+      "clientWidth": 305,
+      "scrollWidth": 305,
+      "logoRight": 206.5,
+      "controlLeft": 238,
+      "overflowElements": []
+    },
+    {
+      "viewport": 375,
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "logoRight": 206.5,
+      "controlLeft": 293,
+      "overflowElements": []
+    },
+    {
+      "viewport": 390,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "logoRight": 206.5,
+      "controlLeft": 308,
+      "overflowElements": []
+    },
+    {
+      "viewport": 768,
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "logoRight": 212.5,
+      "controlLeft": 678,
+      "overflowElements": []
+    },
+    {
+      "viewport": 900,
+      "clientWidth": 885,
+      "scrollWidth": 885,
+      "logoRight": 201,
+      "controlLeft": 302.609375,
+      "overflowElements": []
+    },
+    {
+      "viewport": 1024,
+      "clientWidth": 1009,
+      "scrollWidth": 1009,
+      "logoRight": 201,
+      "controlLeft": 426.609375,
+      "overflowElements": []
+    },
+    {
+      "viewport": 1440,
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "logoRight": 398.59375,
+      "controlLeft": 661.09375,
+      "overflowElements": []
+    }
+  ],
+  "shortMenu": {
+    "viewport": "390x320",
+    "beforeBottom": 405,
+    "afterBottom": 295,
+    "clientHeight": 222,
+    "scrollHeight": 326
+  },
+  "zoom200": "NOT VERIFIED: available keyboard controls did not change devicePixelRatio/viewport",
+  "cssEquivalentBeforeImprovements": {
+    "viewportWidth": 1363,
+    "background": "rgb(56,56,64)",
+    "heroRect": [
+      124,
+      204,
+      683.796875,
+      249.4375
+    ],
+    "photoRect": [
+      855.796875,
+      216.375,
+      368.1875,
+      460.234375
+    ],
+    "beforeEqualsAfter": true
+  },
+  "scenarios": {
+    "menuEscape": "PASS",
+    "menuAnchor": "PASS works top 88.48px",
+    "quizAll3ResultsAndTransfer": "PASS",
+    "javascriptInvalidAndAccepted": "PASS fake transport",
+    "javascriptSmtpFailureAndPreservation": "PASS fake transport",
+    "noJavascriptValidationCorrectionPRGRefresh": "PASS fake transport"
+  },
+  "console": "No site JavaScript exception observed; expected form HTTP errors and extension metadata errors are not counted as clean console proof."
+}
