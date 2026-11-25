@@ -1,0 +1,48 @@
+✔ client accepts contact test@example.invalid (2.807313ms)
+✔ client accepts contact +7 (999) 111-22-33 (0.316256ms)
+✔ client accepts contact @test_user (0.157477ms)
+✔ client accepts contact https://t.me/test_user (0.189946ms)
+✔ client rejects name /     (0.269396ms)
+✔ client rejects name / яяяяяяяяяяяяяяяяяяяя (0.488886ms)
+✔ client rejects contact / not a contact (0.269606ms)
+✔ client rejects contact / test@example.invalid (0.153291ms)
+✔ client rejects message / яяяяяяяяяяяяяяяяяяяя (0.711821ms)
+✔ client rejects service / arbitrary (0.5714ms)
+✔ client rejects consent /  (0.188103ms)
+✔ success waits for confirmed response, blocks duplicate clicks and clears only then (5.173874ms)
+✔ preserves all fields on invalid (0.468285ms)
+✔ preserves all fields on rate_limit (0.330067ms)
+✔ preserves all fields on unavailable (0.256226ms)
+✔ preserves all fields on uncertain (0.321164ms)
+✔ lost response reuses id on user retry and never auto-retries (1.267337ms)
+✔ invalid JSON or false-positive HTTP response does not report success (1.029649ms)
+✔ client timeout aborts once and retains data (0.467754ms)
+✔ index.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (6.781623ms)
+ℹ 43 color/surface pairs; minimum 4.5446:1
+✔ privacy.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (4.221411ms)
+ℹ 20 color/surface pairs; minimum 4.8660:1
+✔ consent.html: secondary text and placeholders meet 4.5:1 on their CSS surfaces (0.895177ms)
+ℹ 20 color/surface pairs; minimum 4.8660:1
+✔ index.html: secondary header text stays legible over a light underlay (5.954779ms)
+✔ privacy.html: secondary header text stays legible over a light underlay (1.230861ms)
+✔ consent.html: secondary header text stays legible over a light underlay (1.20979ms)
+✔ Escape from an open menu closes it and returns focus to the toggle (9.51112ms)
+✔ Escape outside the closed menu does not move focus (1.581619ms)
+✔ Escape outside the open menu does not move focus (1.427768ms)
+✔ Other keys do not close the menu or move focus (1.525334ms)
+✔ Following a menu link closes the menu without cancelling anchor navigation (1.574058ms)
+✔ Quiz reaches Сайт-визитка and transfers it to the form (6.019507ms)
+✔ Quiz reaches Лендинг and transfers it to the form (1.963544ms)
+✔ Quiz reaches Веб-приложение and transfers it to the form (1.936493ms)
+✔ Rapid repeated answers do not skip a question (1.82808ms)
+✔ Back during the answer delay stays on the previous question and remains usable (2.444518ms)
+✔ homepage external CSS, form contract, SEO and local assets (4.382514ms)
+✔ portfolio images and buttons match, status and lazy image dimensions retained (0.374113ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 207.014258

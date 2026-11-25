@@ -10,7 +10,13 @@ test('homepage external CSS, form contract, SEO and local assets',()=>{
  for(const [,script]of html.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(script);
 });
 test('portfolio images and buttons match, status and lazy image dimensions retained',()=>{
- for(const [,card]of html.matchAll(/<article class="work[\s\S]*?>([\s\S]*?)<\/article>/g)) {
+ const cards=[...html.matchAll(/<article\b([^>]*)>([\s\S]*?)<\/article>/g)]
+  .filter(([,attributes])=>(attributes.match(/\bclass="([^"]+)"/)?.[1]||'').split(/\s+/).includes('work'))
+  .map(([, ,card])=>card);
+ assert.equal(cards.length,2,'Both portfolio cards must actually be checked');
+ assert(cards[0].includes('Демопроект'));
+ assert(cards[1].includes('Версия для просмотра'));
+ for(const card of cards) {
   const hrefs=[...card.matchAll(/href="([^"]+)"/g)].map(m=>m[1]);assert.equal(hrefs.length,2);assert.equal(hrefs[0],hrefs[1]);
   assert(/loading="lazy"/.test(card));assert(/width="\d+" height="\d+"/.test(card));assert.equal((card.match(/rel="noopener noreferrer"/g)||[]).length,2);
  }
